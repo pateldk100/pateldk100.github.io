@@ -1,0 +1,26 @@
+
+; ----------------------------------------
+;
+; AICC Course Interchange File.
+;
+;
+; ----------------------------------------
+
+[Course]
+Course_ID=Data_Handling
+Course_Title=Data Handling
+Level=3
+Course_Creator=Breeze Presenter
+Course_System=Breeze Presenter
+Total_AUs=1
+Total_Blocks=0
+Total_Objectives=0
+Total_Complex_Obj=0
+Max_Fields_CST=1
+Max_Fields_ORT=0
+Version=2.0
+
+[Course_Behavior]
+Max_Normal=99
+
+[Course_Description]

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document-metadata version="1.0" xmlns="http://breeze.macromedia.com/">
+	<document-info>
+		<title>Operators &amp; Expression</title>
+		<summary></summary>
+		<author/>
+		<keywords/>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/><view-link href="/Viewer.swf?slide={position}"/>
+	</document-info>
+	<section type="slide" position="1" xmlns="">
+		<title>Operators &amp; Expression </title>
+		<content>Operators &amp; Expression Chapter 8 Class XI [CS] </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/></section>
+	<section type="slide" position="2" xmlns="">
+		<title>Introduction </title>
+		<content>Introduction The different types of built-in operators &amp; Expressions being used in C++ that makes better than other Computer Languages. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000002.jpg"/></section>
+	<section type="slide" position="3" xmlns="">
+		<title>Operators </title>
+		<content>Operators The operators are represented by Operators and the operands. It is of following Types : Arithmetic Operators  Increment-Decrement Operators Relational Operators Logical Operators Conditional Operators/Ternary Operators  Other Operators </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000003.jpg"/></section>
+	<section type="slide" position="4" xmlns="">
+		<title>Arithmetic Operators  </title>
+		<content>Arithmetic Operators  Operators that is being used to perform arithmetic calculations.  It is of following types  Unary Operators Binary Operators Ternary / Conditional Operators  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000004.jpg"/></section>
+	<section type="slide" position="5" xmlns="">
+		<title>Unary Operator </title>
+		<content>Unary Operator The operators which precedes an Operands.    eg.   +a    - a    +5    - 5 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000005.jpg"/></section>
+	<section type="slide" position="6" xmlns="">
+		<title>Binary Operator </title>
+		<content>Binary Operator The operators which act upon two Operands. It is of following types :  Addition Operator  : a + b Subtraction Operators` : a – b Multiplication Operators : a * b Division Operators  : a / b Modulus Operators  : a % b </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000006.jpg"/></section>
+	<section type="slide" position="7" xmlns="">
+		<title>Increment / Decrement Operator </title>
+		<content>Increment / Decrement Operator The operators which seems to be used on  Operands but actually on two operands.  It is being only used in C++ language.  Increment Operator  : a++    or    ++a Means a = a + 1 Decrement  Operators : a--    or   - - a Means  a = a -1      </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000007.jpg"/></section>
+	<section type="slide" position="8" xmlns="">
+		<title>Increment Operator </title>
+		<content>Increment Operator Pre-increment Operator  : ++a Means increment first then use. eg.    a=5;    z = ++a + 5;    cout&lt;&lt;z;          [ Output :   z=11  and  a = 6]  Post-increment Operator  : a++ Means first then increment. eg.    a=5;    z =  a++ + 5;    cout&lt;&lt;z;             [ Output :   z=10  and  a = 6] </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000008.jpg"/></section>
+	<section type="slide" position="9" xmlns="">
+		<title>Decrement Operator </title>
+		<content>Decrement Operator Pre-Decrement Operator  : - -a Means increment first then use. eg.    a=5;    z = - -a + 5;   // z = (5-1)  + 5    cout&lt;&lt;z;          [ Output :   z=9  and  a = 4]  Post-Decrement Operator  : a- - Means first then increment. eg.    a=5;    z =  a - - + 5;   // z = 5 + 5    cout&lt;&lt;z;             [ Output :   z=10  and  a = 4] </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000009.jpg"/></section>
+	<section type="slide" position="10" xmlns="">
+		<title>Relational Operators </title>
+		<content>Relational Operators This operator act upon two operands and represent the relationship between operands.  It is of following types : &lt;  [Less than ]   eg.   a &lt; b &gt;  [Greater than ]   eg.   a &gt; b = = [Equal to ]   eg.   a == b &lt;= [Less than Equal to ]  eg.   a &lt;= b &gt;= [Greater than Equal to ] eg.   a &gt;= b != [Not equal to ]  eg.   a != b </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000010.jpg"/></section>
+	<section type="slide" position="11" xmlns="">
+		<title>Logical Operators </title>
+		<content>Logical Operators This operator act upon One, Two or more operands and represent the option among the operands. NOTE :  AND [&amp;&amp;] or OR [||] operator have lower precedence than Relational Operators. NOT [!] have higher precedence than Relational Operators. It is of following types :   || [OR ]   eg.   a || b  &amp;&amp; [AND ]   eg.   a &amp;&amp; b  ! [NOT ]   eg.   !a   </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000011.jpg"/></section>
+	<section type="slide" position="12" xmlns="">
+		<title>Conditional / Ternary Operator  </title>
+		<content>Conditional / Ternary Operator  This operator works on Three operands.    operand ?  operant  : operand   eg.    result = (mark &lt; 50 ? “Pass” : “Fail”) </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000012.jpg"/></section>
+	<section type="slide" position="13" xmlns="">
+		<title>Some Other Operands </title>
+		<content>Some Other Operands sizeof : It works upon one operand and gives the size of object.    eg. int  x1;        sizeof (x1) ; [output :  2 bytes] Comma (,) : It works upon Two or more operand and gives the right most value.  eg.  b= (a=5, a+2);       [output :  b=7] </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000013.jpg"/></section>
+	<section type="slide" position="14" xmlns="">
+		<title>Type Casting </title>
+		<content>Type Casting Conversion of Data types from one to another is called Type Casting. It is of Two types : Implicit Type Casting : Automatic conversion by compiler. eg.      int  x;    float a=4.8;    x=a;       cout&lt;&lt; x ;   [output :  x = 4]  Explicit Type Casting : Conversion by programmer.  eg.  int x = 65;   float a;    a=(float) x / 2;       cout&lt;&lt; a ;  [output :  a = 32.5 ]  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000014.jpg"/></section>
+	<section type="slide" position="15" xmlns="">
+		<title>Short-Hands </title>
+		<content>Short-Hands a + =10   [a = a + 10 ] a - =10    [a = a – 10 ] a * = 10   [a = a * 10 ] a / = 10   [a = a / 10 ] a % = 10   [a = a % 10 ] a++ /  ++a   [a = a + 1 ] a- - / - - a   [a = a – 1] </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000015.jpg"/></section>
+	<section type="slide" position="16" xmlns="">
+		<title>Quiz Time </title>
+		<content>Quiz Time Identify the type of Operators : A + B +B A + B + C A ? B : C A &amp;&amp; B A++ Binary Operator Unary Operator Binary Operator Ternary Operator Binary Operator Unary Operator </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000016.jpg"/></section>
+	<section type="slide" position="17" xmlns="">
+		<title></title>
+		<content>Ans. the followings :       (i)    True  &amp;&amp;  True  &amp;&amp;  True  (ii)    True || False &amp;&amp;   True  (iii)   False || True || False  (iv)   False  ||  False  (v)   True  ||  True  (vi)   True  &amp;&amp;  True  (vii)  False  &amp;&amp;  False  (viii) False   &amp;&amp;  False  &amp;&amp;  True  True True True False True True False True </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000017.jpg"/></section>
+	<section type="slide" position="18" xmlns="">
+		<title></title>
+		<content>Ans. the followings :   a =True,  b = True,  c = False,   x = 5 ,  y = 10,  z = 20,   (i)     a &amp;&amp; b &amp;&amp; c  (ii)     a || b &amp;&amp; c  (iii)    a || b || c  (iv)    (x &lt; y) &amp;&amp; c  (v)    a || (y == x)  (vi)    y &gt; x ? a : c  (vii)   (x &gt; y) || (x &gt; z) &amp;&amp; (y !=12)  (viii)  res = (z=20,  z - 5)  False False True False True True False 15 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000018.jpg"/></section>
+	<section type="slide" position="19" xmlns="">
+		<title>THE     END </title>
+		<content>THE     END By :    Dinesh Patel  PGT (CS)  KV, Karanja </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000019.jpg"/></section>
+</document-metadata>

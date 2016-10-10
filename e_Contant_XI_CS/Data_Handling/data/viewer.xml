@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<presentation width="720" height="540" start="play" buildNum="7.0.7.7746">
+	<presentationTitle>Data Handling</presentationTitle>
+	<speakers>
+		<speaker>
+			<name>Dinesh Patel</name>
+			<speakerTitle>PGT CS  [ KV Karanja ]</speakerTitle>
+			<image>spk11290.jpg</image>
+			<email>pateldk100@yahoo.com</email>
+			<logo>lgo11290.swf</logo>
+		</speaker>
+	</speakers>
+	<backgrounds>
+		<background url="Master8000000c.swf"/>
+	</backgrounds>
+	<search url="srchdata.xml"/>
+	<slides>
+		<slide id="270" frameRate="30" totalFrames="300" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide1.swf"/>
+			<slideBackground index="0" frameToPlay="1" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="93"/>
+				<clickAnimation start="94" end="186"/>
+				<clickAnimation start="187" end="279"/>
+			</clickAnimations>
+			<slideTitle>DATA HANDLING</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="1"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="271" frameRate="30" totalFrames="300" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide2.swf"/>
+			<slideBackground index="0" frameToPlay="3" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="93"/>
+				<clickAnimation start="94" end="186"/>
+			</clickAnimations>
+			<slideTitle>Data Handling</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="2"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="288" frameRate="30" totalFrames="482" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide3.swf"/>
+			<slideBackground index="0" frameToPlay="5" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="17"/>
+				<clickAnimation start="18" end="34"/>
+				<clickAnimation start="35" end="66"/>
+				<clickAnimation start="67" end="98"/>
+				<clickAnimation start="99" end="130"/>
+				<clickAnimation start="131" end="162"/>
+				<clickAnimation start="163" end="194"/>
+				<clickAnimation start="195" end="226"/>
+				<clickAnimation start="227" end="258"/>
+				<clickAnimation start="259" end="290"/>
+				<clickAnimation start="291" end="322"/>
+				<clickAnimation start="323" end="354"/>
+				<clickAnimation start="355" end="386"/>
+				<clickAnimation start="387" end="418"/>
+				<clickAnimation start="419" end="450"/>
+				<clickAnimation start="451" end="482"/>
+			</clickAnimations>
+			<slideTitle>Data Types</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="3"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="272" frameRate="30" totalFrames="624" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide4.swf"/>
+			<slideBackground index="0" frameToPlay="7" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="32"/>
+				<clickAnimation start="33" end="106"/>
+				<clickAnimation start="107" end="180"/>
+				<clickAnimation start="181" end="254"/>
+				<clickAnimation start="255" end="328"/>
+				<clickAnimation start="329" end="402"/>
+				<clickAnimation start="403" end="476"/>
+				<clickAnimation start="477" end="550"/>
+				<clickAnimation start="551" end="624"/>
+			</clickAnimations>
+			<slideTitle>Data Types</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="4"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="273" frameRate="30" totalFrames="387" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide5.swf"/>
+			<slideBackground index="0" frameToPlay="9" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="17"/>
+				<clickAnimation start="18" end="91"/>
+				<clickAnimation start="92" end="165"/>
+				<clickAnimation start="166" end="239"/>
+				<clickAnimation start="240" end="313"/>
+				<clickAnimation start="314" end="387"/>
+			</clickAnimations>
+			<slideTitle>Fundamental Data Type</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="5"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="274" frameRate="30" totalFrames="430" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide6.swf"/>
+			<slideBackground index="0" frameToPlay="11" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="119"/>
+				<clickAnimation start="120" end="193"/>
+				<clickAnimation start="194" end="267"/>
+				<clickAnimation start="268" end="341"/>
+				<clickAnimation start="342" end="430"/>
+			</clickAnimations>
+			<slideTitle>Data Type Modifiers</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="6"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="276" frameRate="30" totalFrames="300" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide7.swf"/>
+			<slideBackground index="0" frameToPlay="13" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="74"/>
+				<clickAnimation start="75" end="148"/>
+				<clickAnimation start="149" end="237"/>
+			</clickAnimations>
+			<slideTitle>Derived Data Type</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="7"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="279" frameRate="30" totalFrames="300" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide8.swf"/>
+			<slideBackground index="0" frameToPlay="15" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="150"/>
+				<clickAnimation start="151" end="243"/>
+			</clickAnimations>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="8"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="280" frameRate="30" totalFrames="750" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide9.swf"/>
+			<slideBackground index="0" frameToPlay="17" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="150"/>
+				<clickAnimation start="151" end="300"/>
+				<clickAnimation start="301" end="450"/>
+				<clickAnimation start="451" end="600"/>
+				<clickAnimation start="601" end="750"/>
+			</clickAnimations>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="9"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="278" frameRate="30" totalFrames="300" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide10.swf"/>
+			<slideBackground index="0" frameToPlay="19" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="93"/>
+				<clickAnimation start="94" end="186"/>
+				<clickAnimation start="187" end="279"/>
+			</clickAnimations>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="10"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="277" frameRate="30" totalFrames="372" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide11.swf"/>
+			<slideBackground index="0" frameToPlay="21" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="93"/>
+				<clickAnimation start="94" end="186"/>
+				<clickAnimation start="187" end="279"/>
+				<clickAnimation start="280" end="372"/>
+			</clickAnimations>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="11"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="281" frameRate="30" totalFrames="300" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide12.swf"/>
+			<slideBackground index="0" frameToPlay="23" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="93"/>
+				<clickAnimation start="94" end="186"/>
+				<clickAnimation start="187" end="279"/>
+			</clickAnimations>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="12"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="282" frameRate="30" totalFrames="300" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide13.swf"/>
+			<slideBackground index="0" frameToPlay="25" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="93"/>
+				<clickAnimation start="94" end="186"/>
+				<clickAnimation start="187" end="279"/>
+			</clickAnimations>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="13"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="269" frameRate="30" totalFrames="300" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide14.swf"/>
+			<slideBackground index="0" frameToPlay="27" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Thanks</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="14"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="300" frameRate="30" totalFrames="300" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide15.swf"/>
+			<slideBackground index="0" frameToPlay="29" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="93"/>
+			</clickAnimations>
+			<slideTitle>QUIZ TIME</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="15"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="289" frameRate="30" totalFrames="300" advance="never" blockMovement="false" type="quiz" quiz="10004" group="-1" showInTOC="false">
+			<questions>
+				<question index=" 10011 " weight="1" showCorrectFeedback="true" showIncorrectFeedback="true" isMandatory="0" scoreType="scored" shuffleAnswers="true"/>
+			</questions>
+			<audioFeedbacks>
+				<audioFeedback id="2" url="a24x2x1.mp3"/>
+				<audioFeedback id="3" url="a24x3x1.mp3"/>
+			</audioFeedbacks>
+			<content url="Slide16.swf"/>
+			<slideBackground index="0" frameToPlay="31" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>What do you understand about Data Types in C++</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="16"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="290" frameRate="30" totalFrames="300" advance="never" blockMovement="false" type="quiz" quiz="10004" group="-1" showInTOC="false">
+			<questions>
+				<question index=" 10023 " weight="1" showCorrectFeedback="true" showIncorrectFeedback="true" isMandatory="0" scoreType="scored" shuffleAnswers="true"/>
+			</questions>
+			<audioFeedbacks>
+				<audioFeedback id="6" url="a24x6x1.mp3"/>
+				<audioFeedback id="5" url="a24x5x1.mp3"/>
+			</audioFeedbacks>
+			<content url="Slide17.swf"/>
+			<slideBackground index="0" frameToPlay="33" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Select fundamental Data Type</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="17"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="291" frameRate="30" totalFrames="300" advance="never" blockMovement="false" type="quiz" quiz="10004" group="-1" showInTOC="false">
+			<questions>
+				<question index=" 10035 " weight="1" showCorrectFeedback="true" showIncorrectFeedback="true" isMandatory="0" scoreType="scored" shuffleAnswers="true"/>
+			</questions>
+			<audioFeedbacks>
+				<audioFeedback id="7" url="a24x7x1.mp3"/>
+				<audioFeedback id="8" url="a24x8x1.mp3"/>
+			</audioFeedbacks>
+			<content url="Slide18.swf"/>
+			<slideBackground index="0" frameToPlay="35" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Select User Defined Data Type</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="18"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="292" frameRate="30" totalFrames="300" advance="never" blockMovement="false" type="quiz" quiz="10004" group="-1" showInTOC="false">
+			<questions>
+				<question index=" 10047 " weight="1" showCorrectFeedback="true" showIncorrectFeedback="true" isMandatory="0" scoreType="scored" shuffleAnswers="false"/>
+			</questions>
+			<audioFeedbacks>
+				<audioFeedback id="9" url="a24x9x1.mp3"/>
+				<audioFeedback id="10" url="a24x10x1.mp3"/>
+			</audioFeedbacks>
+			<content url="Slide19.swf"/>
+			<slideBackground index="0" frameToPlay="37" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Short is the modifier</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="19"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="293" frameRate="30" totalFrames="300" advance="never" blockMovement="false" type="quiz" quiz="10004" group="-1" showInTOC="false">
+			<questions>
+				<question index=" 10055 " weight="1" showCorrectFeedback="true" showIncorrectFeedback="true" isMandatory="0" scoreType="scored" shuffleAnswers="false"/>
+			</questions>
+			<audioFeedbacks></audioFeedbacks>
+			<content url="Slide20.swf"/>
+			<slideBackground index="0" frameToPlay="39" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Complete the sentence below by filling in the blanks.</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="20"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="294" frameRate="30" totalFrames="300" advance="never" blockMovement="false" type="quiz" quiz="10004" group="-1" showInTOC="false">
+			<questions>
+				<question index=" 10062 " weight="1" showCorrectFeedback="true" showIncorrectFeedback="true" isMandatory="0" scoreType="scored" shuffleAnswers="true"/>
+			</questions>
+			<audioFeedbacks></audioFeedbacks>
+			<content url="Slide21.swf"/>
+			<slideBackground index="0" frameToPlay="41" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Match the followings :</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="21"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="295" frameRate="30" totalFrames="300" advance="never" blockMovement="false" type="quiz" quiz="10004" group="-1" showInTOC="false">
+			<questions>
+				<question index=" 10076 " weight="1" showCorrectFeedback="true" showIncorrectFeedback="true" isMandatory="0" scoreType="scored" shuffleAnswers="false"/>
+			</questions>
+			<audioFeedbacks></audioFeedbacks>
+			<content url="Slide22.swf"/>
+			<slideBackground index="0" frameToPlay="43" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>What do you understand by pointer ?</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="22"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="296" frameRate="30" totalFrames="300" advance="never" blockMovement="false" type="quiz" quiz="10004" group="-1" showInTOC="false">
+			<questions>
+				<question index=" 10104 " weight="1" showCorrectFeedback="true" showIncorrectFeedback="true" isMandatory="0" scoreType="scored" shuffleAnswers="false"/>
+			</questions>
+			<audioFeedbacks></audioFeedbacks>
+			<content url="Slide23.swf"/>
+			<slideBackground index="0" frameToPlay="45" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Complete the sentence below by filling in the blanks.</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="23"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="297" frameRate="30" totalFrames="300" advance="never" blockMovement="false" type="quiz" quiz="10004" group="-1" showInTOC="false">
+			<questions>
+				<question index=" 10122 " weight="1" showCorrectFeedback="true" showIncorrectFeedback="true" isMandatory="0" scoreType="scored" shuffleAnswers="false"/>
+			</questions>
+			<audioFeedbacks></audioFeedbacks>
+			<content url="Slide24.swf"/>
+			<slideBackground index="0" frameToPlay="47" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>void is a</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="24"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="298" frameRate="30" totalFrames="300" advance="never" blockMovement="false" type="quiz" quiz="10004" group="-1" showInTOC="false">
+			<questions>
+				<question index=" 10134 " weight="0" showCorrectFeedback="false" showIncorrectFeedback="false" isMandatory="1" scoreType="survey" shuffleAnswers="false"/>
+			</questions>
+			<audioFeedbacks></audioFeedbacks>
+			<content url="Slide25.swf"/>
+			<slideBackground index="0" frameToPlay="49" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Indicate how strongly you agree or disagree with the following statements.</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="25"/>
+			<slideSpeaker index="0"/>
+		</slide>
+		<slide id="299" frameRate="30" totalFrames="300" advance="never" blockMovement="false" type="scoring" quiz=" 10004 " showInTOC="false">
+			<content url="Slide26.swf"/>
+			<slideBackground index="0" frameToPlay="51" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Quiz</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="26"/>
+			<slideSpeaker index="0"/>
+		</slide>
+	</slides>
+	<quizzes>
+		<reportingOptions isTracked="true" LMSType="BREEZE" AuthorwareDelimeter="," trackingLevel="score" completionValueToSend="default" completionTrigger="breeze" trackingURLEncodeVersionAndSession="true" trackingCharsToNotUrlEncode="" trackingSendInterval="1" completionSlideViewPercentage="100" trackingSendResumeData="true" sendScoreAsPercent="false"></reportingOptions>
+		<quizSettings showQuestionList="true" showScores="true" showPassScore="false" showCurrentScore="false" showQuestionMarks="false" showAttempts="true" showQuizAttempts="false" showQuestionAttempts="false" showQuestionCorrectFeedback="true" showQuestionIncorrectFeedback="true" showQuizNavigationWarning="true"></quizSettings>
+		<quiz quizID="10004" title="Quiz" numQuizAttemptsAllowed="1" minScore="0" passingScore="40" percent="true" passingGradeAction="nextSlide" passingGradeActionArg1="" passingGradeActionArg2="" failingGradeAction="nextSlide" failingGradeActionArg1="" failingGradeActionArg2="" questionAdvance="optional" quizAdvance="optional" showProgress="minimal" allowBackwardMovementInQuiz="true" allowReviewMode="true" passedScoreFeedback="Passed" failedScoreFeedback="Failed" shuffleQuestions="0">
+			<questiongroups></questiongroups>
+		</quiz>
+	</quizzes>
+	<attachments></attachments>
+</presentation>

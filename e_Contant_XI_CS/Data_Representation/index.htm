@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>DATA REPRESENTATION</title>
+		<script src="loadflash.js"> </script>
+		<!-- this needs to be present for height="100%" to work properly in some browsers -->
+		<style type="text/css">
+			<!--
+				body,html {
+					margin:0px; 
+					padding:0px;
+					height:100%;
+					overflow:hidden;
+				}
+			-->
+		</style>
+		<script type="text/vbscript" language="VBScript">
+			<!--
+				Sub SlideContent_FSCommand(ByVal command, ByVal args)
+					select case command
+						case "putHREF" location.href = args
+						case "putTitle" document.title = args
+						case else call SlideContent_DoFSCommand(command, args)
+					end select
+				end sub
+			-->
+		</script>
+		<script type="text/javascript" language="JavaScript">
+			<!--
+				function flashPutHref(href) { location.href = href; }
+				function flashPutTitle(title) { document.title = title; }
+				function SlideContent_DoFSCommand(command, args){}//no-op placeholder for the function call done in SlideContent_FSCommand
+			-->
+		</script>
+	</head>
+	<body>
+		<script type="text/javascript" language="JavaScript">
+			showFlash("viewer.swf", '100%', '100%', false);
+		</script>
+	</body>
+</html>

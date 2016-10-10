@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<breeze-manifest version="1.0" xmlns="http://breeze.macromedia.com/">
+	<document type="slide-presentation" icon="presentation" duration="191.86666666666667" section-count="26"/>
+	<assets>
+		<asset type="document-view">
+			<entry href="viewer.swf" width="900" height="550"/>
+			
+<file href="data"/>
+<file href="breeze-manifest.xml"/>
+<file href="viewer.swf"/>
+<file href="as2-wrapper.swf"/>
+<file href="viewer-lite.swf"/>
+<file href="components.swf"/>
+<file href="loadflash.js"/>
+<file href="scorm2004/adlcp_v1p3.xsd"/>
+<file href="scorm2004/adlnav_v1p3.xsd"/>
+<file href="scorm2004/adlseq_v1p3.xsd"/>
+<file href="scorm2004/common/anyElement.xsd"/>
+<file href="scorm2004/common/dataTypes.xsd"/>
+<file href="scorm2004/common/elementNames.xsd"/>
+<file href="scorm2004/common/elementTypes.xsd"/>
+<file href="scorm2004/common/rootElement.xsd"/>
+<file href="scorm2004/common/vocabTypes.xsd"/>
+<file href="scorm2004/common/vocabValues.xsd"/>
+<file href="scorm2004/datatypes.dtd"/>
+<file href="scorm2004/extend/custom.xsd"/>
+<file href="scorm2004/extend/strict.xsd"/>
+<file href="scorm2004/imscp_v1p1.xsd"/>
+<file href="scorm2004/imsss_v1p0.xsd"/>
+<file href="scorm2004/imsss_v1p0auxresource.xsd"/>
+<file href="scorm2004/imsss_v1p0control.xsd"/>
+<file href="scorm2004/imsss_v1p0delivery.xsd"/>
+<file href="scorm2004/imsss_v1p0limit.xsd"/>
+<file href="scorm2004/imsss_v1p0objective.xsd"/>
+<file href="scorm2004/imsss_v1p0random.xsd"/>
+<file href="scorm2004/imsss_v1p0rollup.xsd"/>
+<file href="scorm2004/imsss_v1p0seqrule.xsd"/>
+<file href="scorm2004/imsss_v1p0util.xsd"/>
+<file href="scorm2004/lom.xsd"/>
+<file href="scorm2004/lomCustom.xsd"/>
+<file href="scorm2004/lomLoose.xsd"/>
+<file href="scorm2004/lomStrict.xsd"/>
+<file href="scorm2004/SCORM.htm"/>
+<file href="scorm2004/scorm_support/scorm_support.htm"/>
+<file href="scorm2004/scorm_support/scorm_support.js"/>
+<file href="scorm2004/scorm_support/scorm_support.swf"/>
+<file href="scorm2004/unique/loose.xsd"/>
+<file href="scorm2004/unique/strict.xsd"/>
+<file href="scorm2004/vocab/adlmd_vocabv1p0.xsd"/>
+<file href="scorm2004/vocab/custom.xsd"/>
+<file href="scorm2004/vocab/loose.xsd"/>
+<file href="scorm2004/vocab/strict.xsd"/>
+<file href="scorm2004/xml.xsd"/>
+<file href="scorm2004/XMLSchema.dtd"/>
+<file href="scorm2004/imsmanifest.xml"/>
+<file href="adlcp_rootv1p2.xsd"/>
+<file href="imscp_rootv1p1p2.xsd"/>
+<file href="imsmd_rootv1p2p1.xsd"/>
+<file href="ims_xml.xsd"/>
+<file href="SCORM.htm"/>
+<file href="scorm_support/scorm_support.htm"/>
+<file href="scorm_support/scorm_support.js"/>
+<file href="scorm_support/scorm_support.swf"/>
+<file href="imsmanifest.xml"/>
+<file href="presenter.crs"/>
+<file href="presenter.des"/>
+<file href="AICC.htm"/>
+<file href="exit.swf"/>
+<file href="presenter.au"/>
+<file href="presenter.cst"/>
+
+		</asset>
+		<asset type="document-metadata" location="file">
+			<file href="data/srchdata.xml"/>
+		</asset>
+		<asset type="tracking-metadata" location="file">
+			<file href="metadata/trackdta.xml"/>
+		</asset>
+	</assets>
+</breeze-manifest>

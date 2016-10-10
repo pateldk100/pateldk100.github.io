@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document-metadata version="1.0" xmlns="http://breeze.macromedia.com/">
+	<document-info>
+		<title>DATA REPRESENTATION</title>
+		<summary></summary>
+		<author/>
+		<keywords/>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/><view-link href="/Viewer.swf?slide={position}"/>
+	</document-info>
+	<section type="slide" position="1" xmlns="">
+		<title>DATA REPRESENTATION </title>
+		<content>DATA REPRESENTATION CLASS XI </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/></section>
+	<section type="slide" position="2" xmlns="">
+		<title>Binary Representation of Integers </title>
+		<content>Binary Representation of Integers Sign and  Magnitude representation  One’s (1’s) Complement Representation  Two’s (2’s) Complement Representation </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000002.jpg"/></section>
+	<section type="slide" position="3" xmlns="">
+		<title>Sign and  Magnitude representation </title>
+		<content>Sign and  Magnitude representation Sign bit  [ 0=‘+’   and  1 = ‘-’ ] MSB  [Most Significant Bit] LSB  [Least Significant Bit] Example :  Representation of  +4 0 0 0 0 0 1 0 0 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000003.jpg"/></section>
+	<section type="slide" position="4" xmlns="">
+		<title></title>
+		<content>Sign bit  [ 0=‘+’   and  1 = ‘-’ ] MSB  [Most Significant Bit] LSB  [Least Significant Bit] Example : Representation of  -4 Total 2N-1 numbers can be represent by the system,  Where N is the word size [here 8 bit] 1 0 0 0 0 1 0 0 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000004.jpg"/></section>
+	<section type="slide" position="5" xmlns="">
+		<title>One’s (1’s) Complement representation </title>
+		<content>One’s (1’s) Complement representation Example :  Representation of  -4 in One’s Complement +4   = 0 0 0 0   0 1 0 0   So,      1 1 1 1   1 1 1 1              -  0 0 0 0   0 1 0 0       1 1 1 1  1 0 1 1       1’s complement representation of  -4     is  1 1 1 1   1 0 1 1  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000005.jpg"/></section>
+	<section type="slide" position="6" xmlns="">
+		<title>Two’s (2’s) Complement representation </title>
+		<content>Two’s (2’s) Complement representation Example :  Representation of  -4 in 2’s Complement +4        =  0 0 0 0   0 1 0 0  So,       1 1 1 1   1 1 1 1                      -  0 0 0 0   0 1 0 0       1 1 1 1  1 0 1 1  Now Add 1 into 1’s comp. i.e.                               + 1      1 1 1 1   1 1 0 0  2’s complement representation of  -4     is  1 1 1 1   1 1 0 0  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000006.jpg"/></section>
+	<section type="slide" position="7" xmlns="">
+		<title>Facts about Complements </title>
+		<content>Facts about Complements 0 no. is unique, there is no complement. Left Most Bit i.e MSB is the sign bit only.  Total 2N numbers can be represented by the complements.   [using 8 bit it is 28 =256 where all +ive                 and  –ive including  0 ] To convert –ive to +ive  and  +ive  to  –ive find the 1’s/ 2’s complement.   </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000007.jpg"/></section>
+	<section type="slide" position="8" xmlns="">
+		<title>Binary Representation of  Real Numbers </title>
+		<content>Binary Representation of  Real Numbers Example :  0100101000.0101012 Mantissa Exponent 0 1 0 0 1 0 1 0 0 0 0 1 0 1 0 1 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000008.jpg"/></section>
+	<section type="slide" position="9" xmlns="">
+		<title></title>
+		<content>What floating point number does  0100101000.010101 represent ? First of all see the sign bit(MSB) i.e. 10th bit of Mantissa here is 0 means  +ive  Mantissa   : +. 1 0 0 1 0 1 0 0 0    = +0. 1 0 0 1 0 1    Exponent   : 0 1 0 1 0 1  Subtract   1 0 0 0 0 0  : 0 1 0 1 0 1                  - 1 0 0 0 0 0                  - 1 1 0 1 0 1   Now see that Exponent is less than 100000 so the result is –ive,  means the power will be negative.   To find its equivalent decimal no. we have to convert this –ive  number into +ive, for that we have to take 2’s complement of exponent. i.e.   0010112       =      1110    N  =     +0.1001012  x  2-11     =      +0.000000000001001012     =      +0.0002822875976562510   ANS. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000009.jpg"/></section>
+	<section type="slide" position="10" xmlns="">
+		<title></title>
+		<content>What floating point number does  1100100000.100011 represent ? First of all see the sign bit (MSB) i.e. 10th bit of Mantissa here is 1 means -ive  Mantissa   :  -   .1 0 0 1 0 0 0 0 0    =  - 0. 1 0 0 1    Exponent   :  1 0 0 0 1 1  Subtract   1 0 0 0 0 0  : 1 0 0 0 1 1                  - 1 0 0 0 0 0                  + 0 0 0 0 1 1   Now see, that Exponent is grater than 100000 so the result is +ive  means the power will be positive.   Because exponent is +ive, so no need to find 2’s complement of exponent.  i.e.   0000112       =      310    N  =     -0.1001  x  23     =      -100.12     =       (1 x 22)     +    (0 x 21)       +      (0 x  20)   .   1 x 2-1      =       4 + 0 + 0  .  1 x 2½    =         4.510        ANS. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000010.jpg"/></section>
+	<section type="slide" position="11" xmlns="">
+		<title>Representing Characters in Memory </title>
+		<content>Representing Characters in Memory ASCII (American Standard Code for Information Interchange) It is 7-bit code so it has 27 = 128 characters eg.   Char  Bin code        ASCII    A  =  100 0001 =     65   a = 110 0001 =     97   0        = 011 0000 = 48  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000011.jpg"/></section>
+	<section type="slide" position="12" xmlns="">
+		<title>Example </title>
+		<content>Example 0110010 0101011 0110010 50 43 50 2 + 2 Binary ASCII Means 1001000 1000101 1001100 1001100 1001111 72 69 76 76 79 H E L L O </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000012.jpg"/></section>
+	<section type="slide" position="13" xmlns="">
+		<title></title>
+		<content>ISCII (American Scripts/Standard  Code for Information Interchange)  It is 8-bit code so it has 28 = 256 characters (all ASCII + Indian Scripts) eg.   Char  Bin code        ASCII    A  =  100 0001 =     65   a = 110 0001 =     97   0        = 011 0000 = 48  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000013.jpg"/></section>
+	<section type="slide" position="14" xmlns="">
+		<title></title>
+		<content>UNICODE (Universal Coding)  It has 94,140 characters It assign a specific code to each character There is no matter what the :  Platform  Program  Language </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000014.jpg"/></section>
+	<section type="slide" position="15" xmlns="">
+		<title>Thanks…………. </title>
+		<content>Thanks…………. By :     DINESH PATEL   PGT [Comp. Sc.]   KV, Karanja </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000015.jpg"/></section>
+</document-metadata>
