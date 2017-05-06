@@ -1,3 +1,3 @@
-git add --all
-git commit -m "Initial commit"
+git add .
+git commit -m "CBSE_Sample_QP.htm"
 git push -u origin master
