@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document-metadata version="1.0" xmlns="http://breeze.macromedia.com/">
+	<document-info>
+		<title>ARRAYS_XII</title>
+		<summary></summary>
+		<author/>
+		<keywords/>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/><view-link href="/Viewer.swf?slide={position}"/>
+	</document-info>
+	<section type="slide" position="1" xmlns="">
+		<title></title>
+		<content>CHAPTER 9 CLASS XII By : Dinesh Patel PGT [CS] KV, Karanja </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/></section>
+	<section type="slide" position="2" xmlns="">
+		<title></title>
+		<content>Group of data of different data types referred with single reference.  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000002.jpg"/></section>
+	<section type="slide" position="3" xmlns="">
+		<title></title>
+		<content></content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000003.jpg"/></section>
+	<section type="slide" position="4" xmlns="">
+		<title></title>
+		<content>Array is the linear collection of similar data types referred with single name. n . . . . . . . . . . 3 14 2 4 1 8 0 5 0 1 2 3 . . . . . n 5 8 4 14 . . . . . . </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000004.jpg"/></section>
+	<section type="slide" position="5" xmlns="">
+		<title></title>
+		<content>  human {           head      Arms      stomach      legs      foot          };     </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000005.jpg"/></section>
+	<section type="slide" position="6" xmlns="">
+		<title></title>
+		<content>The array which has only one open end through that we can insert of remove.  Means last inserted object will be removed first.  So the concept is LIFO 1 2 3 4 6 5 7 8 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000006.jpg"/></section>
+	<section type="slide" position="7" xmlns="">
+		<title></title>
+		<content>The Queue is a structure which has  one end for insert and another end for remove.  Means first inserted object will be removed first.  So the concept is FIFO 1 2 3 4 6 5 7 8 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000007.jpg"/></section>
+	<section type="slide" position="8" xmlns="">
+		<title></title>
+		<content>Start New Link/Address store Link-List is the implementation of  Queue and Stack dynamically . Info/Data L Info/Data L Info/Data L </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000008.jpg"/></section>
+	<section type="slide" position="9" xmlns="">
+		<title></title>
+		<content></content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000009.jpg"/></section>
+	<section type="slide" position="10" xmlns="">
+		<title></title>
+		<content>Insertion Display / Traversal Searching Modification Deletion Sorting Merging </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000010.jpg"/></section>
+	<section type="slide" position="11" xmlns="">
+		<title></title>
+		<content>One-Dimensional Array Multi-Dimensional Array 0 1 2 3 . . . . . n 5 8 4 14 . . . . . . 0 1 2 3 . . . . . n 0 5 8 4 14 . . . . . . 1 7 2 . . n </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000011.jpg"/></section>
+	<section type="slide" position="12" xmlns="">
+		<title></title>
+		<content>Search  :  Finding a specific value into collection is called search. Linear Search Finding a specific value by starting comparison from one end and moving to other end till to get or end.  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000012.jpg"/></section>
+	<section type="slide" position="13" xmlns="">
+		<title></title>
+		<content>Set  ctr = Lower Bound [L] i.e. 0 While ctr &lt; Upper Bound [U]   if AR[ctr] == item then    search complete and stop.   else    ctr = ctr + 1 IF ctr &gt; Upper Bound Search Unsuccessful.  Stop  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000013.jpg"/></section>
+	<section type="slide" position="14" xmlns="">
+		<title></title>
+		<content>Searching by dividing the array into two equal part and comparison.  Binary Search possible only on Sorted Array (Ascending or Descending) </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000014.jpg"/></section>
+	<section type="slide" position="15" xmlns="">
+		<title></title>
+		<content>Size=10               Searching for  20  Step 2 :  mid = beg + last/2                      i.e.    mid = int (0 + 9)/2  =  4 Step 1 :  L=0,   U = size -1  mid Step 3 :  16 ≠ 20  Step 4 :  16 &lt; 20 Step 5 :  beg = mid + 1          i.e.    4 + 1 = 5     0 1 2 3 4 5 6 7 8 9 4 5 8 14 16 18 20 21 25 29 0 1 2 3 4 5 6 7 8 9 4 5 8 14 16 18 20 21 25 29 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000015.jpg"/></section>
+	<section type="slide" position="16" xmlns="">
+		<title></title>
+		<content>Step 15 :  20 = 20  Step 16 :  Find  Search Successful Step 6 :  mid = int(beg + last/2)       i.e.    mid = int (5 + 9)/2  =  7 Step 7 :  21 ≠ 20  Step 8 :  21 &gt; 20  Step 9 :  last = mid - 1          i.e.    7 - 1 = 6     mid Step 10 :  mid = int(beg + last/2)       i.e.    mid = int (5 + 6)/2  =  5 mid Step  11 :  18 ≠ 20  Step  12 :  18 &lt; 20  Step  14 :  mid = int(beg + last/2)       i.e.    mid = int (6 + 6)/2  =  6 Step  13 :  beg = mid + 1          i.e.    5 + 1 = 6     mid 0 1 2 3 4 5 6 7 8 9 4 5 8 14 16 18 20 21 25 29 0 1 2 3 4 5 6 7 8 9 4 5 8 14 16 18 20 21 25 29 0 1 2 3 4 5 6 7 8 9 4 5 8 14 16 18 20 21 25 29 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000016.jpg"/></section>
+	<section type="slide" position="17" xmlns="">
+		<title></title>
+		<content>Set beg = L     and    last = U    While beg &lt;= last mid = (beg + last)/2 if AR[mid]==Item then Search Successful  and Stop. Else If AR[mid]&lt;Item then beg = mid + 1 Else last = mid – 1 If beg &gt; last then Search Unsuccessful L (lower Bound) = 0 U (Upper bound) = Size -1 Array = AR[]   (Sorting Ascending.   Searching element = Item </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000017.jpg"/></section>
+	<section type="slide" position="18" xmlns="">
+		<title></title>
+		<content>void Bsearch (AR[],  size,  item)  {  int beg = 0,   last = Size -1,  mid = 0;     while (beg &lt;= last)   {  mid = int(beg + last)/2 ;  if (AR[mid]==Item) {  cout&lt;&lt; “Search Successful” ;    break; }  else     { if (AR[mid] &lt; item)  beg = mid + 1;  else last = mid – 1; } }  if  (beg &gt; last)  cout&lt;&lt; “Search Unsuccessful”; } </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000018.jpg"/></section>
+	<section type="slide" position="19" xmlns="">
+		<title></title>
+		<content>Insertion  operation means inserting the value into the array.  It is of Two types : Insertion in Un-sorted Array Insertion in Sorted Array  Un-sorted Array :  In this case element will be added at the end of array. Sorted Array : In this case element will be added at appropriate place without disturbing the order. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000019.jpg"/></section>
+	<section type="slide" position="20" xmlns="">
+		<title></title>
+		<content>Suppose inserting value 15, that must be at place of index no. 4. it means the hole nos. from 16 onward will be shifted to next. Ar[ i +1] = Ar[ i ] Size -- 0 1 2 3 4 5 6 7 8 9 4 5 8 14 16 18 20 21 25 29 0 1 2 3 4 5 6 7 8 9 10 4 5 8 14 16 18 20 21 25 29 0 1 2 3 4 5 6 7 8 9 10 4 5 8 14 15 16 18 20 21 25 29 0 1 2 3 4 5 6 7 8 9 10 4 5 8 14 16 18 20 21 25 29 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000020.jpg"/></section>
+	<section type="slide" position="21" xmlns="">
+		<title></title>
+		<content>Deletion operation means removing the value from the array.   </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000021.jpg"/></section>
+	<section type="slide" position="22" xmlns="">
+		<title></title>
+		<content>Suppose deleting value 16, from the place of index no. 4. it means the hole nos. from 18 onward will be shifted to one index back. Ar[ i ] = Ar[ i +1] size++ 0 1 2 3 4 5 6 7 8 9 4 5 8 14 16 18 20 21 25 29 0 1 2 3 4 5 6 7 8 9 4 5 8 14 18 20 21 25 29 0 1 2 3 4 5 6 7 8 9 4 5 8 14 18 20 21 25 29 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000022.jpg"/></section>
+	<section type="slide" position="23" xmlns="">
+		<title></title>
+		<content>Sorting means arranging the data in to organized order i.e. either Ascending or Descending. We are going to know only about more popular sorting i.e. Selection sort, Bubble Sort and Insertion Sort. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000023.jpg"/></section>
+	<section type="slide" position="24" xmlns="">
+		<title></title>
+		<content>Step 1:  Find the smallest element from array i.e. 5   and shift is at first place 8 18 5 20 12 13 7 9 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000024.jpg"/></section>
+	<section type="slide" position="25" xmlns="">
+		<title></title>
+		<content></content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000025.jpg"/></section>
+	<section type="slide" position="26" xmlns="">
+		<title></title>
+		<content></content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000026.jpg"/></section>
+	<section type="slide" position="27" xmlns="">
+		<title></title>
+		<content></content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000027.jpg"/></section>
+	<section type="slide" position="28" xmlns="">
+		<title></title>
+		<content>This method being processed by looking the array from left to right, and whenever a pair of adjacent element is found to be out of order, the elements are exchanged. Therefore after the first pass, the largest element in the array will have bubbled up to one end of array.   Total no of pass n-1 where n=size of array </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000028.jpg"/></section>
+	<section type="slide" position="29" xmlns="">
+		<title></title>
+		<content>Check two adjacent element and swap if not sorted then increment the index no. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000029.jpg"/></section>
+	<section type="slide" position="30" xmlns="">
+		<title></title>
+		<content></content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000030.jpg"/></section>
+	<section type="slide" position="31" xmlns="">
+		<title></title>
+		<content></content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000031.jpg"/></section>
+	<section type="slide" position="32" xmlns="">
+		<title></title>
+		<content>In this method the list is being divided into 02 parts Sorted Part and Un-sorted Part. It pickup one element from the front of unsorted part and insert it at its proper place in the sorted part and repeats this action till the unsorted part is exhausted. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000032.jpg"/></section>
+	<section type="slide" position="33" xmlns="">
+		<title></title>
+		<content>Temp Green is temp value </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000033.jpg"/></section>
+	<section type="slide" position="34" xmlns="">
+		<title></title>
+		<content></content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000034.jpg"/></section>
+	<section type="slide" position="35" xmlns="">
+		<title></title>
+		<content>#include&lt;iostream.h&gt; #include&lt;limits.h&gt; void Ins_sort (int list[],  int size)  {  int ptr=0,   temp = 0 ;   list [0]  =  INT_MIN;   for ( int i=1; i&lt;size; i++)        {  temp = list [i];           ptr = i - 1;           while (list [ptr] &gt; temp)    {  list [ptr+1] = list [ptr];       ptr - -;    }           list [ptr+1] = temp;       }   for ( int k=1;  k&lt;size;  k++)    cout &lt;&lt; list [k] &lt;&lt;"   ";  }  void main()  {  const int s=9;   int ar[s]={INT_MIN,77,33,44,11,88,22,66,55};   Ins_sort(ar,s);  }  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000035.jpg"/></section>
+	<section type="slide" position="36" xmlns="">
+		<title></title>
+		<content>1.     int ptr=0,   temp = 0,  swap=0 ; 2.   For  ptr=0 to size-1  [Repeat from 3 to 9]        3.   temp= list [ptr]; 4.        For  i=0  to  ptr-1     [Repeat from 5 to 9] 5.   if (temp &lt; list [i]) 6.       swap= list [i]; 7.       list [i] = temp; 8.       temp = swap; 9.   list [ptr] = temp; </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000036.jpg"/></section>
+	<section type="slide" position="37" xmlns="">
+		<title></title>
+		<content>#include&lt;iostream.h&gt; void Ins_Sort ( int list[], int size)  {  int ptr=0,   temp = 0,  swap=0 ;   for (ptr=0; ptr&lt;size ; ptr++)   {   temp= list [ptr];     for (int i=0; i&lt;ptr; i++)     { if (temp &lt; list [i])      {   swap= list [i];          list [i] = temp;          temp = swap;      }     }      list [ptr] = temp;   }   for (int i=0; i&lt;size; i++)    cout&lt;&lt;list[i]&lt;&lt;"   ";  }   void main()  {  const int s=8;   int ar[s]={77,33,44,11,88,22,66,55};   Ins_Sort(ar,s);  } </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000037.jpg"/></section>
+	<section type="slide" position="38" xmlns="">
+		<title></title>
+		<content>Merging of arrays means value of two arrays inserted into Single array.   Sort the two array Insert the smallest value into the resultant array i.e.  3rd array. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000038.jpg"/></section>
+	<section type="slide" position="39" xmlns="">
+		<title></title>
+		<content>14 10 Array 1 Array 2 22 9 5 27 4 12 7 4 5 7 9 10 12 14 22 27 Size 6 Size 3 Size 6+3 Array 3 See How ? </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000039.jpg"/></section>
+	<section type="slide" position="40" xmlns="">
+		<title></title>
+		<content>5 9 Array 1 Array 2 10 14 22 27 4 7 12 Sort both the array Sorted array </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000040.jpg"/></section>
+	<section type="slide" position="41" xmlns="">
+		<title></title>
+		<content>4 Array 3 5 9 Array 1 Array 2 10 14 22 27 4 7 12 Smallest Insert smallest value </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000041.jpg"/></section>
+	<section type="slide" position="42" xmlns="">
+		<title></title>
+		<content>4 5 Array 3 5 9 Array 1 Array 2 10 14 22 27 4 7 12 Smallest Insert smallest value </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000042.jpg"/></section>
+	<section type="slide" position="43" xmlns="">
+		<title></title>
+		<content>4 5 7 Array 3 5 9 Array 1 Array 2 10 14 22 27 4 7 12 Smallest Insert smallest value </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000043.jpg"/></section>
+	<section type="slide" position="44" xmlns="">
+		<title></title>
+		<content>4 5 7 9 Array 3 5 9 Array 1 Array 2 10 14 22 27 4 7 12 Smallest Insert smallest value </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000044.jpg"/></section>
+	<section type="slide" position="45" xmlns="">
+		<title></title>
+		<content>4 5 7 9 10 Array 3 5 9 Array 1 Array 2 10 14 22 27 4 7 12 Smallest Insert smallest value </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000045.jpg"/></section>
+	<section type="slide" position="46" xmlns="">
+		<title></title>
+		<content>4 5 7 9 10 12 Array 3 5 9 Array 1 Array 2 10 14 22 27 4 7 12 Smallest Insert smallest value </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000046.jpg"/></section>
+	<section type="slide" position="47" xmlns="">
+		<title></title>
+		<content>4 5 7 9 10 12 14 Array 3 5 9 Array 1 Array 2 10 14 22 27 4 7 12 Smallest Insert smallest value </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000047.jpg"/></section>
+	<section type="slide" position="48" xmlns="">
+		<title></title>
+		<content>4 5 7 9 10 12 14 22 Array 3 5 9 Array 1 Array 2 10 14 22 27 4 7 12 Smallest Insert smallest value </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000048.jpg"/></section>
+	<section type="slide" position="49" xmlns="">
+		<title></title>
+		<content>4 5 7 9 10 12 14 22 27 Array 3 5 9 Array 1 Array 2 10 14 22 27 4 7 12 Smallest Insert smallest value </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000049.jpg"/></section>
+	<section type="slide" position="50" xmlns="">
+		<title></title>
+		<content>4 5 7 9 10 12 14 22 27 Array 3 5 9 Array 1 Array 2 10 14 22 27 4 7 12 Merged Array DONE </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000050.jpg"/></section>
+	<section type="slide" position="51" xmlns="">
+		<title></title>
+		<content>2D array is the matrix having x and y axis (Rows and Columns). </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000051.jpg"/></section>
+	<section type="slide" position="52" xmlns="">
+		<title></title>
+		<content>r  No. of rows   =  Ur – Lr + 1 c  No. of Columns  = Uc – Lc + 1 Where  Ur Maximum no. of Rows i.e. Upper Rows limit. Lr Minimum no. of Rows  i.e. Lower Columns Limit  Uc Maximum no. of Columns  i.e. Upper Columns limit. Lc Minimum no. of Columns i.e. Lower Columns Limit. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000052.jpg"/></section>
+	<section type="slide" position="53" xmlns="">
+		<title></title>
+		<content>Address [row, col] = B + W  [c (I – Lr) + (J – Lc) ]   Where  B  =  Base Address    W = Words    c = no. of columns (Uc-Lc+1)    I = row    J = columns    Lr = Lower Row limit    Lc = Lower Column limit </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000053.jpg"/></section>
+	<section type="slide" position="54" xmlns="">
+		<title></title>
+		<content>Example : A 2-D array defined as A[4…7, -1…3] requires 2 words of storage space for each element. If the array is stored in Row-Major form, calculate the address of A[6,2] given the base address as 100.  Solution : Base address  B  = 100   Element size W = 2 bytes   Lr =  4,  Lc  =  -1   Ur = 7,  Uc  =  3    I  =  6,   J  =  2  c  no. of columns  =  Uc – Lc + 1     =  3  -  (-1)  + 1    =  5 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000054.jpg"/></section>
+	<section type="slide" position="55" xmlns="">
+		<title></title>
+		<content>Address [I, J]  =  B + W  [c (I – Lr) + (J – Lc) ]  Address [6,2]  =   100 + 2 [5 (6 – 4) + (2 – (-1)) ]     = 100 + 2 (5 x (2) + (2 + 1) )     = 100 + 2 (10 + 2 + 1)     = 100 + 2 x 13     = 100 + 26     = 126     </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000055.jpg"/></section>
+	<section type="slide" position="56" xmlns="">
+		<title></title>
+		<content>Address [row, col] = B + W  [ (I – Lr) + r (J – Lc) ]   Where  B  =  Base Address    W = Words    r = no. of rows (Ur-Lr+1)    I = row    J = columns    Lr = Lower Row limit    Lc = Lower Column limit </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000056.jpg"/></section>
+	<section type="slide" position="57" xmlns="">
+		<title></title>
+		<content>Example : A 2-D array defined as A[-20…20, 10…35] requires one byte of storage space for each element. If the array is stored in Column-Major form, calculate the address of A[0,30] given the base address as 500.  Solution : Base address  B  = 500   Element size W = 1 bytes   Lr =  -20,  Lc  =  10   Ur = 20,  Uc  =  35    I  =  0,   J  =  30  r  no. of rows   =  Ur – Lr + 1     =  20  -  (-20)  + 1    =  20 + 20 + 1   = 41 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000057.jpg"/></section>
+	<section type="slide" position="58" xmlns="">
+		<title></title>
+		<content>Address [I, J]  =  B + W  [(I – Lr) + r (J – Lc) ]  Address [0,30]  =   500 + 1 [(0-(-20) + 41(30-10)]    = 500 + 1 [ (20) + (41 * 20) ]    = 500 + 1 [20  +  820 ]    = 500 + 1 * 840    = 1340    </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000058.jpg"/></section>
+	<section type="slide" position="59" xmlns="">
+		<title></title>
+		<content>Row Major  :  Address [row, col] = B + W  [ c (I – Lr) + (J – Lc) ]  Column Major : Address [row, col] = B + W  [ (I – Lr) + r (J – Lc) ] </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000059.jpg"/></section>
+	<section type="slide" position="60" xmlns="">
+		<title></title>
+		<content>Here :   Lr = Lower Row limit   = 1   Lc = Lower Column limit = 1   Ur = Upper Row Limit = 10   Uc = Upper Column Limit = 5 Rest as discussed.    </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000060.jpg"/></section>
+	<section type="slide" position="61" xmlns="">
+		<title></title>
+		<content>A B  (row1  x  col1)     (4 x 4)  must be  n = p Matrix A , Matrix B  and  Matrix C  must be squire        means  row = column   eg.  4 x 4 here     (row2  x  col2)     (4 x 4) 0,0 0,1 0,2 0,3 1,0 1,1 1,2 1,3 2,0 2,1 2,2 2,3 3,0 3,1 3,2 3,3 0,0 0,1 0,2 0,3 1,0 1,1 1,2 1,3 2,0 2,1 2,2 2,3 3,0 3,1 3,2 3,3 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000061.jpg"/></section>
+	<section type="slide" position="62" xmlns="">
+		<title></title>
+		<content>A B  must be  col1 = row2 Resultant Matrix C must be of  ( col1 x row2 )              i.e. 3 x 3 here     (row1  x  col1)     (4 x 3)  (row2  x  col2)     (3 x 4) 0,0 0,1 0,2 1,0 1,1 1,2 2,0 2,1 2,2 3,0 3,1 3,2 0,0 0,1 0,2 0,3 1,0 1,1 1,2 1,3 2,0 2,1 2,2 2,3 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000062.jpg"/></section>
+	<section type="slide" position="63" xmlns="">
+		<title></title>
+		<content>A B C[0,0] =  A [0,0]   *   B [0,0] 0,0 0,1 0,2 1,0 1,1 1,2 2,0 2,1 2,2 3,0 3,1 3,2 0,0 0,1 0,2 0,3 1,0 1,1 1,2 1,3 2,0 2,1 2,2 2,3 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000063.jpg"/></section>
+	<section type="slide" position="64" xmlns="">
+		<title></title>
+		<content>A B C[0,0] = A [0,0] * B [0,0]     +        A [0,1] * B [1,0] 0,0 0,1 0,2 1,0 1,1 1,2 2,0 2,1 2,2 3,0 3,1 3,2 0,0 0,1 0,2 0,3 1,0 1,1 1,2 1,3 2,0 2,1 2,2 2,3 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000064.jpg"/></section>
+	<section type="slide" position="65" xmlns="">
+		<title></title>
+		<content>A B C[0,0] = A [0,0] * B [0,0]     +      A [0,1] * B [1,0]     +      A [0,2] * B [2,0] 0,0 0,1 0,2 1,0 1,1 1,2 2,0 2,1 2,2 3,0 3,1 3,2 0,0 0,1 0,2 0,3 1,0 1,1 1,2 1,3 2,0 2,1 2,2 2,3 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000065.jpg"/></section>
+	<section type="slide" position="66" xmlns="">
+		<title></title>
+		<content>A B C[0,1] =  A [0,0]   *   B [0,1] 0,0 0,1 0,2 1,0 1,1 1,2 2,0 2,1 2,2 3,0 3,1 3,2 0,0 0,1 0,2 0,3 1,0 1,1 1,2 1,3 2,0 2,1 2,2 2,3 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000066.jpg"/></section>
+	<section type="slide" position="67" xmlns="">
+		<title></title>
+		<content>A B C[0,1] =  A [0,0]   *   B [0,1]        +       A [0,1]   *   B [1,1]  0,0 0,1 0,2 1,0 1,1 1,2 2,0 2,1 2,2 3,0 3,1 3,2 0,0 0,1 0,2 0,3 1,0 1,1 1,2 1,3 2,0 2,1 2,2 2,3 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000067.jpg"/></section>
+	<section type="slide" position="68" xmlns="">
+		<title></title>
+		<content>A B C[0,1]  =  A [0,0] * B [0,1]     +      A [0,1] * B [1,1]    +     A [0,0]  * B [0,1] 0,0 0,1 0,2 1,0 1,1 1,2 2,0 2,1 2,2 3,0 3,1 3,2 0,0 0,1 0,2 0,3 1,0 1,1 1,2 1,3 2,0 2,1 2,2 2,3 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000068.jpg"/></section>
+	<section type="slide" position="69" xmlns="">
+		<title></title>
+		<content>A B C[0,2] =  A [0,0]   *   B [0,2] 0,0 0,1 0,2 1,0 1,1 1,2 2,0 2,1 2,2 3,0 3,1 3,2 0,0 0,1 0,2 0,3 1,0 1,1 1,2 1,3 2,0 2,1 2,2 2,3 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000069.jpg"/></section>
+	<section type="slide" position="70" xmlns="">
+		<title></title>
+		<content>A B C[0,2] = A [0,0] * B [0,2]     +        A [0,1] * B [1,2] 0,0 0,1 0,2 1,0 1,1 1,2 2,0 2,1 2,2 3,0 3,1 3,2 0,0 0,1 0,2 0,3 1,0 1,1 1,2 1,3 2,0 2,1 2,2 2,3 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000070.jpg"/></section>
+	<section type="slide" position="71" xmlns="">
+		<title></title>
+		<content>A B C[0,2] = A [0,0] * B [0,2]     +      A [0,1] * B [1,2]     +      A [0,2] * B [2,2] 0,0 0,1 0,2 1,0 1,1 1,2 2,0 2,1 2,2 3,0 3,1 3,2 0,0 0,1 0,2 0,3 1,0 1,1 1,2 1,3 2,0 2,1 2,2 2,3 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000071.jpg"/></section>
+	<section type="slide" position="72" xmlns="">
+		<title></title>
+		<content>A B C[0,3] =  A [0,3]   *   B [0,3] 0,0 0,1 0,2 1,0 1,1 1,2 2,0 2,1 2,2 3,0 3,1 3,2 0,0 0,1 0,2 0,3 1,0 1,1 1,2 1,3 2,0 2,1 2,2 2,3 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000072.jpg"/></section>
+	<section type="slide" position="73" xmlns="">
+		<title></title>
+		<content>A B C[0,3] =  A [0,0]   *   B [0,3]        +       A [0,1]   *   B [1,3]  0,0 0,1 0,2 1,0 1,1 1,2 2,0 2,1 2,2 3,0 3,1 3,2 0,0 0,1 0,2 0,3 1,0 1,1 1,2 1,3 2,0 2,1 2,2 2,3 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000073.jpg"/></section>
+	<section type="slide" position="74" xmlns="">
+		<title></title>
+		<content>A B C[0,3]  =  A [0,0] * B [0,3]     +      A [0,1] * B [1,2]    +     A [0,0]  * B [0,3] 0,0 0,1 0,2 1,0 1,1 1,2 2,0 2,1 2,2 3,0 3,1 3,2 0,0 0,1 0,2 0,3 1,0 1,1 1,2 1,3 2,0 2,1 2,2 2,3 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000074.jpg"/></section>
+	<section type="slide" position="75" xmlns="">
+		<title></title>
+		<content>Prefix :      + X Y Infix :       X + Y Postfix :      X Y + </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000075.jpg"/></section>
+	<section type="slide" position="76" xmlns="">
+		<title></title>
+		<content>Convert    ((A + B) x C) / D Use the braces as per BODMAS      (((A + B) x C) / D)     Convert inner most braces       (((AB+) x C) / D)                     ((AB+ C x ) / D)           (AB+ C x D /)            AB+  C x  D/   </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000076.jpg"/></section>
+	<section type="slide" position="77" xmlns="">
+		<title></title>
+		<content>A + B ( ) If the closing brace comes Pop to next opening braces and convert            BA+   or   (AB+)  Push result into stack ( ( </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000077.jpg"/></section>
+	<section type="slide" position="78" xmlns="">
+		<title></title>
+		<content>x c (AB+) ) If the closing brace comes Pop to next opening braces and convert ((AB+)  C x) Push result into stack  ( ( </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000078.jpg"/></section>
+	<section type="slide" position="79" xmlns="">
+		<title></title>
+		<content>/ D ((AB+) C x) ) If the closing brace comes Pop to next opening braces and convert (((AB+)  Cx)  D/) or AB+  Cx  D/ Solved……… ( </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000079.jpg"/></section>
+	<section type="slide" position="80" xmlns="">
+		<title></title>
+		<content>Convert    ((A + B) x C) / D Use the braces as per BODMAS      (((A + B) x C) / D)     Convert inner most braces       (((+AB) x C) / D)                     ((x +AB C ) / D)           ( / x +AB C D)            / x +AB C D   </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000080.jpg"/></section>
+	<section type="slide" position="81" xmlns="">
+		<title></title>
+		<content>A + B ( ) If the closing brace comes Pop to next opening braces and convert            +BA   or   (+AB)  Push result into stack  ( ( </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000081.jpg"/></section>
+	<section type="slide" position="82" xmlns="">
+		<title></title>
+		<content>x c (+AB) ) If the closing brace comes Pop to next opening braces and convert  (x (+AB)  C) Push result into stack  ( ( </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000082.jpg"/></section>
+	<section type="slide" position="83" xmlns="">
+		<title></title>
+		<content>/ D (x (+AB) C) ) If the closing brace comes Pop to next opening braces and convert  (/ (x (+AB)  C)  D) or / x +AB  C  D            Solved ………….. ( </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000083.jpg"/></section>
+	<section type="slide" position="84" xmlns="">
+		<title></title>
+		<content>Convert        / x +AB C D  Use the braces as per BODMAS   ( / (x (+AB) C) D)     Convert inner most braces       (/(x(AB+)  C)  D)                     (/ (AB+ C x)  D)           ((AB+ C x)  D /)            AB+ C x D /  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000084.jpg"/></section>
+	<section type="slide" position="85" xmlns="">
+		<title></title>
+		<content>x ( + ( If the closing brace comes Pop to next opening braces and convert            BA+   or   (AB+)  Push result into stack  / ( A B ) </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000085.jpg"/></section>
+	<section type="slide" position="86" xmlns="">
+		<title></title>
+		<content>x c (AB+) ) If the closing brace comes Pop to next opening braces and convert  ((AB+)  C x) Push result into stack  / ( ( </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000086.jpg"/></section>
+	<section type="slide" position="87" xmlns="">
+		<title></title>
+		<content>/ D ((AB+) Cx) ) If the closing brace comes Pop to next opening braces and convert  (D ((AB+)  Cx) /)  i.e.  ( ((AB+)  Cx)  D/) or  AB+ Cx  D/            Solved ………….. ( </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000087.jpg"/></section>
+	<section type="slide" position="88" xmlns="">
+		<title></title>
+		<content>NOT A ( If the closing brace comes Pop to next opening braces and convert   (NOT A)    or      (A  NOT)     Push result into stack  ( ) </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000088.jpg"/></section>
+	<section type="slide" position="89" xmlns="">
+		<title></title>
+		<content>OR ( (A NOT) If the closing brace comes Pop to next opening braces and convert    (NOT B)    or       (B  NOT)     Push result into stack  ( ( NOT B ) </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000089.jpg"/></section>
+	<section type="slide" position="90" xmlns="">
+		<title></title>
+		<content>OR ( (A NOT) If the closing brace comes Pop to next opening braces and convert    (NOT C)    or       (C NOT)     Push result into stack  ( (B NOT) AND ( NOT C ) </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000090.jpg"/></section>
+	<section type="slide" position="91" xmlns="">
+		<title></title>
+		<content>OR ( (A NOT) If the closing brace comes Pop to next opening braces and convert  (C NOT) AND (B NOT) i.e. ((C NOT) (B NOT) AND) or            ((B NOT)  (C NOT) AND)         Push result into stack ( (B NOT) AND (C NOT) ) </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000091.jpg"/></section>
+	<section type="slide" position="92" xmlns="">
+		<title></title>
+		<content>OR (A NOT) If the closing brace comes Pop to next opening braces and convert ((B NOT)  (C NOT) AND)  OR  (A NOT) i.e. (((B NOT)  (C NOT) AND) (A NOT) OR) or (A NOT) ((B NOT)  (C NOT) AND) OR)  Means  A NOT   B NOT   C NOT   AND  OR Solved……………. ( ((B NOT)  (C NOT) AND) ) </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000092.jpg"/></section>
+	<section type="slide" position="93" xmlns="">
+		<title></title>
+		<content>By :         Dinesh Patel         PGT [CS]         KV, Karanja </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000093.jpg"/></section>
+</document-metadata>

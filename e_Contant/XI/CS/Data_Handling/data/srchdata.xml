@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document-metadata version="1.0" xmlns="http://breeze.macromedia.com/">
+	<document-info>
+		<title>Data Handling</title>
+		<summary></summary>
+		<author/>
+		<keywords/>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/><view-link href="/Viewer.swf?slide={position}"/>
+	</document-info>
+	<section type="slide" position="1" xmlns="">
+		<title></title>
+		<content>Chapter 7 For Class XI By : Dinesh Patel  PGT [Comp. Sc.]  KV Karanja  Mumbai Region </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/></section>
+	<section type="slide" position="2" xmlns="">
+		<title></title>
+		<content>    Learning Objective :   Know about the different datatypes        being used in C++ programing language. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000002.jpg"/></section>
+	<section type="slide" position="3" xmlns="">
+		<title></title>
+		<content>void char int float double Functions Pointers References Constants Arrays structure union enumeration class Fundamental Data Types Derived  Data Types User Defined  Data Types </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000003.jpg"/></section>
+	<section type="slide" position="4" xmlns="">
+		<title></title>
+		<content>    Means the type of Data and associated operations of handling it.  It is of Two Types :  (i)  Fundamental Data Type : Which is initial, which is  already created by the compiler.  int,   char,    float,     double,     void  (ii) Derived Data Type : These are created with the help of Fundamental Data Type.  Array,  Function, Pointers, references, Constants  (iii)  User Defined Derived Data Types         Classes, Structures, Unions, Enumerations  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000004.jpg"/></section>
+	<section type="slide" position="5" xmlns="">
+		<title></title>
+		<content>void   :   (i) Empty value  with no size.   char :   (i) Only Character  viz. A, B, C, D, +, _, &amp; etc.           (ii) Size 01 Bytes    int     :  (i) Only natural number  viz. 5,9,12,19 etc.             (ii) Size  02 bytes.  float :  (i) Floating point numbers viz.  45.584,  5.3            (ii) Size 04 Bytes  double :  (i) Floating point numbers viz. 2.54875      (ii) Size 08 Bytes </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000005.jpg"/></section>
+	<section type="slide" position="6" xmlns="">
+		<title></title>
+		<content>Signed Unsigned Long Short </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000006.jpg"/></section>
+	<section type="slide" position="7" xmlns="">
+		<title></title>
+		<content>Arrays   :   Collection of similar Data types referred under single name.    eg.  int AR [10] Roll_no Array 1 Array 2 Array 3 25 42 8 32 14 20 19 Roll No Name Collection 1 Mandeep 50 2 Kamla 20 3 Sonam 100 4 Piyush 80 5 Anubhav 40 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000007.jpg"/></section>
+	<section type="slide" position="8" xmlns="">
+		<title></title>
+		<content>Functions : Function can be created anywhere and can be called anywhere. It can perform any task.   eg. int add(int x, int y)     { int z=0;       z = x + y ;        return z ;     }  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000008.jpg"/></section>
+	<section type="slide" position="9" xmlns="">
+		<title></title>
+		<content>Pointers : Pointer is the named memory location that holds the memory address of any other variable.   eg. int *ptr ; int  x ;   x = 21 ;   ptr  = &amp; x ;  Address of variable x int  ptr 1011 101010 21 int  x 1011 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000009.jpg"/></section>
+	<section type="slide" position="10" xmlns="">
+		<title></title>
+		<content>References   :  It is the alternative name of any Object.    eg.    int total ;    total = 50 ;    int &amp;sum = total ;  Here  ‘total’ also referred ‘sum’. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000010.jpg"/></section>
+	<section type="slide" position="11" xmlns="">
+		<title></title>
+		<content>Structures  and  Classes    Group of object sharing common characteristics and behavior .  struct dog {   head   mouth     leg   barking           };  class dog  {   head   mouth     leg   barking              };  User Defined Data Type </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000011.jpg"/></section>
+	<section type="slide" position="12" xmlns="">
+		<title></title>
+		<content>Union  :  This is the memory location that is being shared by Two or more different variables of different data types.   eg.    union   shared_eg {        int x;       char  ch ;            } cnvt ;   cnvt Byte Byte ch x </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000012.jpg"/></section>
+	<section type="slide" position="13" xmlns="">
+		<title></title>
+		<content>Enumeration : An alternative method for naming Integer constant.   By default it start from 0 ;  eg.   const int cat = 0;      const int bat = 1;    const int rat = 2;  or    enum  day { cat, bat,  rat} ;  Both above are same. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000013.jpg"/></section>
+	<section type="slide" position="14" xmlns="">
+		<title></title>
+		<content>Presented by :  Dinesh Patel  PGT Comp. Sc.  KV, NAD Karanja </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000014.jpg"/></section>
+	<section type="slide" position="15" xmlns="">
+		<title></title>
+		<content></content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000015.jpg"/></section>
+	<section type="slide" position="16" xmlns="">
+		<title></title>
+		<content>Correct - Click anywhere to continue Incorrect - Click anywhere to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Check Clear A)  Type of Data and its associated operations B)  Type of Working environment C)  Different types of Data D)  Typing of Data </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000016.jpg"/></section>
+	<section type="slide" position="17" xmlns="">
+		<title></title>
+		<content>Correct - Click anywhere to continue Incorrect - Click anywhere to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Check Clear A)  double B)  class C)  array D)  pointer </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000017.jpg"/></section>
+	<section type="slide" position="18" xmlns="">
+		<title></title>
+		<content>Correct - Click anywhere to continue Incorrect - Click anywhere to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Check Clear A)  Union B)  Function C)  void D)  int </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000018.jpg"/></section>
+	<section type="slide" position="19" xmlns="">
+		<title></title>
+		<content>Correct - Click anywhere to continue Incorrect - Click anywhere to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Check Clear A)  True B)  False </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000019.jpg"/></section>
+	<section type="slide" position="20" xmlns="">
+		<title></title>
+		<content>Correct - Click anywhere to continue Incorrect - Click anywhere to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Check Clear  data type     int is the </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000020.jpg"/></section>
+	<section type="slide" position="21" xmlns="">
+		<title></title>
+		<content>Column 1 Column 2 Correct - Click anywhere to continue Incorrect - Click anywhere to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing A. Fundamental Data Type B. Modifier C. User Defined Data Type D. Derived Data Type A int B long C Enumeration D array Check Clear </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000021.jpg"/></section>
+	<section type="slide" position="22" xmlns="">
+		<title></title>
+		<content>Correct - Click anywhere to continue Incorrect - Click anywhere to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Check Clear </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000022.jpg"/></section>
+	<section type="slide" position="23" xmlns="">
+		<title></title>
+		<content>Correct - Click anywhere to continue Incorrect - Click anywhere to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Check Clear C++ code int *ptr is to create a pointer of   type   </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000023.jpg"/></section>
+	<section type="slide" position="24" xmlns="">
+		<title></title>
+		<content>Correct - Click anywhere to continue Incorrect - Click anywhere to continue You answered this correctly! Your answer: The correct answer is: You did not answer this question completely You must answer the question before continuing Check Clear A)  Fundamental Data Types B)  Derived Data Type C)  User Defined Data Type D)  Variable </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000024.jpg"/></section>
+	<section type="slide" position="25" xmlns="">
+		<title></title>
+		<content>1  2    3   4   5    Disagree Agree Agree Check Clear Agree </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000025.jpg"/></section>
+	<section type="slide" position="26" xmlns="">
+		<title></title>
+		<content>Question Feedback/Review Information Will Appear Here Your Score {score} Max Score {max-score} Number of Quiz Attempts {total-attempts} Review Quiz Continue </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000026.jpg"/></section>
+</document-metadata>

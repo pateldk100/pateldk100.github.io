@@ -1,0 +1,12 @@
+<?php
+$tomorrow = mktime(0,0,0,date("m"),date("d")+1,date("Y"));
+echo "Tomorrow is ".date("Y/m/d", $tomorrow);
+?> 
+
+<a href="javascript:history.go(-1)">&lt; Go Back&tl;</a>
+
+echo "<script>javascript:history.go(-1);</script>";
+
+echo "<script>window.location.href='update_user.php'</script>";
+
+<a onclick="return confirm('are you sure you wnat to delete');" href="#">DELETE</a>

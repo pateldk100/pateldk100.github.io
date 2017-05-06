@@ -1,0 +1,4 @@
+<p align="center"><strong>footer.inc</strong></p>
+<div align="left" style="border:solid 2px #0000FF; background:#EAEDFC; color:#000000; padding:2px; width:800px; height:300px; overflow:auto;">
+  <?php show_source("footer.inc"); ?>
+</div>

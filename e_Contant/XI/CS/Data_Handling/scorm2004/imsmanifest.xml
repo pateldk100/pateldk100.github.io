@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="Adobe_Presenter_Quiz_ID" version="1.3" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://ltsc.ieee.org/xsd/LOM lomStrict.xsd" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:imscp="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>CAM 1.3</schemaversion>
+		<lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+			<general>
+				<identifier>
+					<catalog>Adobe Presenter Course</catalog>
+					<entry></entry>
+				</identifier>
+				<title>
+					<string language="x-none"></string>
+				</title>
+				<description>
+					<string language="x-none"></string>
+				</description>
+			</general>
+			<lifeCycle>
+				<version>
+					<string language="x-none">1.0</string>
+				</version>
+				<status>
+					<source>LOMv1.0</source>
+					<value>final</value>
+				</status>
+			</lifeCycle>
+			<metaMetadata>
+				<identifier>
+					<catalog>test</catalog>
+					<entry>test 1000</entry>
+				</identifier>
+				<metadataSchema>LOMv1.0</metadataSchema>
+				<metadataSchema>SCORM_CAM_v1.3</metadataSchema>
+			</metaMetadata>
+			<technical>
+				<format>text/html</format>
+				<location>.</location>
+			</technical>
+			<rights>
+				<cost>
+					<source>LOMv1.0</source>
+					<value>no</value>
+				</cost>
+				<copyrightAndOtherRestrictions>
+					<source>LOMv1.0</source>
+					<value>no</value>
+				</copyrightAndOtherRestrictions>
+			</rights>
+			<classification>
+				<purpose>
+					<source>LOMv1.0</source>
+					<value>idea</value>
+				</purpose>
+				<description>
+					<string language="x-none"></string>
+				</description>
+				<keyword>
+					<string language="x-none">Adobe Presenter</string>
+				</keyword>
+			</classification>
+		</lom>
+	</metadata>
+	<organizations default="_ORG">
+		<organization identifier="_ORG">
+			<title>Adobe_Presenter</title>
+			<item identifier="Adobe_Presenter_Quiz" isvisible="true" identifierref="_RES">
+				<title>Adobe_Presenter_Quiz</title>
+				<imsss:sequencing>
+					<imsss:objectives>
+						<imsss:primaryObjective objectiveID="PRIMARYOBJ" satisfiedByMeasure="true">
+							<imsss:minNormalizedMeasure></imsss:minNormalizedMeasure>
+						</imsss:primaryObjective>
+					</imsss:objectives>
+				</imsss:sequencing>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource adlcp:scormType="sco" identifier="_RES" type="webcontent" href="SCORM.htm">
+			<file href="as2-wrapper.swf"/>
+			<file href="breeze-manifest.xml"/>
+			<file href="components.swf"/>
+			<file href="data/connectmobile.dat"/>
+			<file href="data/DKP3 01-11-04.jpg"/>
+			<file href="data/lgo11290.swf"/>
+			<file href="data/Logo_KVS.png"/>
+			<file href="data/Master8000000c.swf"/>
+			<file href="data/resources/docwrap.gif"/>
+			<file href="data/resources/docwrap.htm"/>
+			<file href="data/resources/swfwrap.htm"/>
+			<file href="data/Slide1.swf"/>
+			<file href="data/Slide10.swf"/>
+			<file href="data/Slide11.swf"/>
+			<file href="data/Slide12.swf"/>
+			<file href="data/Slide13.swf"/>
+			<file href="data/Slide14.swf"/>
+			<file href="data/Slide15.swf"/>
+			<file href="data/Slide16.swf"/>
+			<file href="data/Slide17.swf"/>
+			<file href="data/Slide18.swf"/>
+			<file href="data/Slide19.swf"/>
+			<file href="data/Slide2.swf"/>
+			<file href="data/Slide20.swf"/>
+			<file href="data/Slide21.swf"/>
+			<file href="data/Slide22.swf"/>
+			<file href="data/Slide23.swf"/>
+			<file href="data/Slide24.swf"/>
+			<file href="data/Slide25.swf"/>
+			<file href="data/Slide26.swf"/>
+			<file href="data/Slide3.swf"/>
+			<file href="data/Slide4.swf"/>
+			<file href="data/Slide5.swf"/>
+			<file href="data/Slide6.swf"/>
+			<file href="data/Slide7.swf"/>
+			<file href="data/Slide8.swf"/>
+			<file href="data/Slide9.swf"/>
+			<file href="data/spk11290.jpg"/>
+			<file href="data/srchdata.xml"/>
+			<file href="data/thumb.swf"/>
+			<file href="data/vconfig.xml"/>
+			<file href="data/viewer.xml"/>
+			<file href="loadflash.js"/>
+			<file href="metadata/trackdta.xml"/>
+			<file href="scorm2004/datatypes.dtd"/>
+			<file href="scorm2004/SCORM.htm"/>
+			<file href="scorm2004/scorm_support/scorm_support.htm"/>
+			<file href="scorm2004/scorm_support/scorm_support.js"/>
+			<file href="scorm2004/scorm_support/scorm_support.swf"/>
+			<file href="scorm2004/XMLSchema.dtd"/>
+			<file href="viewer-lite.swf"/>
+			<file href="viewer.swf"/>
+		</resource>
+	</resources>
+</manifest>

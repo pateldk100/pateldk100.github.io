@@ -1,0 +1,107 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Library Info System | Login</title>
+
+<style type="text/css">
+<!--
+.login {
+	background-color: #A0BBDC;
+	border: solid 5px #3F6DA7;
+}
+-->
+</style></head>
+
+<?php
+	include('index.php');
+	include('conn.php');
+	include("validate_form.inc");
+
+if(isset($_POST['username']) && isset($_POST['password']))
+{
+    $uname="";
+	$pass="";
+	$sql = "SELECT u.lib_reg_no,  u.usertype, u.password, r.cat, r.IDSR, r.name, r.design, r.class, r.sec, u.approved_disapproved FROM User_Mast u, reader_mast r WHERE u.lib_reg_no =Ucase('".$_POST['username']."') AND u.password ='".$_POST['password']."' and u.lib_reg_no=r.lib_reg_no";
+	$rs=odbc_exec($conn,$sql);
+		if(odbc_fetch_row($rs))
+		{
+			if(odbc_result($rs,"approved_disapproved")!=0)
+			{
+			$pass=odbc_result($rs,"password");
+			$name=odbc_result($rs,"name");
+			$class=odbc_result($rs,"class");
+			$sec=odbc_result($rs,"sec");
+			$design=odbc_result($rs,"design");
+			
+			$_SESSION['id']=odbc_result($rs,"lib_reg_no");
+			$_SESSION['cat']=odbc_result($rs,"cat");
+			$_SESSION['utype']=odbc_result($rs,"usertype");
+			$_SESSION['IDSR']=odbc_result($rs,"IDSR");
+			$_SESSION['name']=$name." [ ".$class.$sec.$design."]";
+			$_SESSION['logged']="Welcome....".$_SESSION['name'];
+
+//			unset($_SESSION['action']);  making free created session.
+
+			$dt=date('Y-m-d');
+			$qstr="update user_mast set login_date='$dt', no_of_login=no_of_login+1 where lib_reg_no='".$_SESSION['id']."' and password ='$pass'";	
+			odbc_exec($conn,$qstr);
+
+
+			echo "<script>window.location.href='index.php'</script>";
+			}
+			else
+			echo "<script>javascript:alert('Sorry! Your approval awaited .......')</script>";
+		}	
+        else 
+		{   login_form();
+	        echo "<font color=#ff0000><Center><b><small>Wrong User name or Password<small></b></Center></font>";
+			//	echo "<script>javascript:alert('Wrong User name/Password.........')</script>";
+		}
+}
+else
+{   login_form();
+	echo "<font color=#00FF00><Center><b><small>Enter Lib.Reg.no. as User name<small></b></Center></font>";
+}
+?>
+</div>
+</body>
+</html>
+
+
+
+
+<?php 
+function Login_form()
+{
+?>
+<body>
+<div align="center" valign="middle" class="login" style="width:33%; height:190px; position: absolute; top: 28%; left: 34.5%;" >
+	
+      <form name="login_frm" method="post" action="" >
+		<table width="94%" border="0">
+			<tr>
+				<td colspan="3" align="center"><h3><big><big><big>User Login</h3></td>
+			</tr>
+			<tr>
+				<td width="25%" align="right">User Name :</label></strong></td>
+				<td colspan="2" ><input name="username" type="text"  size="28" class="cl_box"/></td>
+			</tr>
+			<tr>
+				<td width="20%" align="right">Password : </strong></td>
+				<td colspan="2" ><label><input name="password" type="password" id="password" size="28" class="cl_box" /></label></td>
+			</tr>
+			<tr><td width="20%">&nbsp;</td>
+				<td width="20%">&nbsp;</td>
+				<td width="20%">&nbsp;</td>
+			</tr>
+			<tr><td>&nbsp;</td>
+				<td align="left"><input type="button" name="button" value="    Login    " onclick="validate_login_form()"/>
+		</form></td><td align="right">
+		<form name="cncl" method="POST" action="index.php">     
+				<input type="submit" name="submit" value="  Cancel  "/>
+		</form></td>
+			</tr>
+      </table>
+<?php
+}
+?>

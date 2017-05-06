@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>FlashPaper</title>
+<style type="text/css">
+<!--
+body,html {
+	margin:0px; 
+	padding:0px;
+	height:100%;
+	overflow:hidden;
+}
+-->
+</style>
+<script language="JavaScript">
+<!--
+	var errorArr = new Array();
+	var linkArr = new Array();
+	var hyperLink = "http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager04.html";
+	
+	errorArr["en"] = "Unable to open attachment either because of security restrictions of your browser or of Adobe Flash player.";
+	errorArr["de"] = "Unable to open attachment either because of security restrictions of your browser or of Adobe Flash player.";
+	errorArr["fr"] = "Unable to open attachment either because of security restrictions of your browser or of Adobe Flash player.";
+	errorArr["jp"] = "Unable to open attachment either because of security restrictions of your browser or of Adobe Flash player.";
+	errorArr["ko"] = "Unable to open attachment either because of security restrictions of your browser or of Adobe Flash player.";
+	errorArr["es"] = "Unable to open attachment either because of security restrictions of your browser or of Adobe Flash player.";
+	errorArr["bp"] = "Unable to open attachment either because of security restrictions of your browser or of Adobe Flash player.";
+	errorArr["it"] = "Unable to open attachment either because of security restrictions of your browser or of Adobe Flash player.";
+	errorArr["nl"] = "Unable to open attachment either because of security restrictions of your browser or of Adobe Flash player.";
+	errorArr["cn"] = "Unable to open attachment either because of security restrictions of your browser or of Adobe Flash player.";
+	
+
+	linkArr["en"] = "Please change the security settings of your browser from the security panel.<br>To change the security settings of flash player, please click <A HREF= '" + hyperLink + "'>here </A>.";
+	linkArr["de"] = "Please change the security settings of your browser from the security panel.<br>To change the security settings of flash player, please click <A HREF= '" + hyperLink + "'>here </A>.";
+	linkArr["fr"] = "Please change the security settings of your browser from the security panel.<br>To change the security settings of flash player, please click <A HREF= '" + hyperLink + "'>here </A>.";
+	linkArr["jp"] = "Please change the security settings of your browser from the security panel.<br>To change the security settings of flash player, please click <A HREF= '" + hyperLink + "'>here </A>.";
+	linkArr["ko"] = "Please change the security settings of your browser from the security panel.<br>To change the security settings of flash player, please click <A HREF= '" + hyperLink + "'>here </A>.";
+	linkArr["es"] = "Please change the security settings of your browser from the security panel.<br>To change the security settings of flash player, please click <A HREF= '" + hyperLink + "'>here </A>.";
+	linkArr["bp"] = "Please change the security settings of your browser from the security panel.<br>To change the security settings of flash player, please click <A HREF= '" + hyperLink + "'>here </A>.";
+	linkArr["it"] = "Please change the security settings of your browser from the security panel.<br>To change the security settings of flash player, please click <A HREF= '" + hyperLink + "'>here </A>.";
+	linkArr["nl"] = "Please change the security settings of your browser from the security panel.<br>To change the security settings of flash player, please click <A HREF= '" + hyperLink + "'>here </A>.";
+	linkArr["cn"] = "Please change the security settings of your browser from the security panel.<br>To change the security settings of flash player, please click <A HREF= '" + hyperLink + "'>here </A>.";
+	
+	
+function get2LetterLang(ISOLangCode)
+{
+	var lcISOLangCode = ISOLangCode.toLowerCase();
+	var ret = "en";
+	if(lcISOLangCode == "en-us")
+	{
+		ret = "en";
+	}
+	else if(lcISOLangCode == "de-de")
+	{
+		ret = "de";
+	}
+	else if(lcISOLangCode == "fr-fr")
+	{
+		ret = "fr";
+	}
+	else if(lcISOLangCode == "ja-jp")
+	{
+		ret = "jp";
+	}
+	else if(lcISOLangCode == "ko-kr")
+	{
+		ret = "ko";
+	}
+	else if(lcISOLangCode == "es-es")
+	{
+		ret = "es";
+	}
+	else if(lcISOLangCode == "pt-br")
+	{
+		ret = "bp";
+	}
+	else if(lcISOLangCode == "it-it")
+	{
+		ret = "it";
+	}
+	else if(lcISOLangCode == "nl-nl")
+	{
+		ret = "nl";
+	}
+	else if(lcISOLangCode == "zh-cn")
+	{
+		ret = "cn";
+	}
+	return ret;
+}
+
+function getErrorString()
+{
+	var isMSIE = navigator.appName.indexOf("Microsoft") != -1;
+	var lang = (isMSIE?navigator.userLanguage:navigator.language);
+	if(lang==undefined || lang==null)
+	{
+		lang = "en-US";
+	}
+	
+	lang = get2LetterLang(lang);
+	
+	var error = errorArr[lang];
+	error = error + '<br>' + '<br>' + linkArr[lang];
+	
+	if(error==undefined || error==null)
+	{
+		error = "Unable to open attachment either because of security restrictions of your browser or of Adobe Flash player.";
+		error = error + '<br>' + '<br>';
+		error = error + "Please change the security settings of your browser from the security panel.<br>To change the security settings of flash player, please click <A HREF= '" + hyperLink + "'>here </A>.";
+	}
+	
+	return error;
+}
+
+function sanitizeForbiddenHTMLTextChars(in_s)
+{
+	var out_s = in_s.toString();//We are sometimes called to sanitize non-strings...like document.location
+	out_s = out_s.split("<").join("&lt;");
+	out_s = out_s.split(">").join("&gt;");
+	out_s = out_s.split("'").join("&apos;");
+	out_s = out_s.split('"').join("&quot;");
+	
+	return out_s;
+}
+var path = window.location.search.split('?path=')[1];
+var sanePath = sanitizeForbiddenHTMLTextChars(path);
+document.writeln('<body>');
+if (sanePath)
+{
+	document.writeln('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="100%" height="100%">');
+	document.write('<param name="movie" value="'); 
+		document.write(path); 
+		document.writeln('">');
+	document.writeln('<param name="allowScriptAccess" value="sameDomain"/>');
+	document.write('<embed src="'); 
+		document.write(sanePath); 
+		document.writeln('" width="100%" height="100%" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" allowScriptAccess="sameDomain"></embed>');
+	document.writeln('</object>');
+}
+else
+{
+	document.writeln(getErrorString());
+}
+document.writeln('</body>');
+//-->
+</script>
+</head>
+<body>
+</body>
+</html>

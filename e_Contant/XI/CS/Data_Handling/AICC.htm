@@ -1,0 +1,179 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Data Handling</title>
+		<script src="loadflash.js"> </script>
+		<!-- this needs to be present for height="100%" to work properly in some browsers -->
+		<style type="text/css">
+			<!--
+				body,html {
+					margin:0px;
+					padding:0px;
+					height:100%;
+					overflow:hidden;
+				}
+			-->
+		</style>
+		<script type="text/vbscript" language="VBScript">
+			<!--
+				Sub SlideContent_FSCommand(ByVal command, ByVal args)
+					select case command
+						case "putHREF" location.href = args
+						case "putTitle" document.title = args
+						case else call SlideContent_DoFSCommand(command, args)
+					end select
+				end sub
+			-->
+		</script>
+		<script type="text/javascript" language="JavaScript">
+			<!--
+				function flashPutHref(href) { location.href = href; }
+				function flashPutTitle(title) { document.title = title; }
+				function SlideContent_DoFSCommand(command, args){}//no-op placeholder for the function call done in SlideContent_FSCommand
+			-->
+		</script>
+		<script type="text/javascript" language="JavaScript">
+			<!--
+				var strURLFile = "viewer.swf";			// Name of the flash file
+				var strExitFile = "exit.swf";			// Name of the flash file that can facilitate LMS termination
+				var strExitMessage = "Results have been sent to LMS.  Press \"OK\" to continue."
+				var isMSIE = navigator.appName.indexOf("Microsoft") != -1;
+				var g_bFinishDone = "";
+				var AICC_URL = "";
+				var AICC_SID = "";
+				var strURLBase = "";
+				var strURLParams = "";
+				var varWindow = findAICCwindow(window);
+				var strURLFull = varWindow.document.location.toString();
+				var intTemp = strURLFull.indexOf("#");
+				if (intTemp == -1)
+					intTemp = strURLFull.indexOf("?");
+				if (intTemp > 0)
+					strURLParams = strURLFull.substring(intTemp + 1, strURLFull.length);
+				var strTemp = location.protocol.toUpperCase();
+				if (strTemp.indexOf("FILE") == -1)
+				var intTemp = location.pathname.lastIndexOf("/");
+				else
+				var intTemp = location.pathname.lastIndexOf("\\");
+				if (intTemp != -1)
+				strURLBase = location.protocol + "//" + location.host + location.pathname.substring(0, intTemp + 1);
+				else
+				strURLBase = location.protocol + "//" + location.host + location.pathname;
+
+				strURLParams = (strURLParams == unescape(strURLParams))?escape(strURLParams):strURLParams;
+
+				strURLParams = (strURLParams == "" ? "" : "?") + strURLParams;
+
+				if(strURLParams.length > 1 && strURLParams.charAt(0) == '?')
+					strTemp = strURLParams.substr(1);
+				var aryTemp = strTemp.split("&");
+				for (var intTemp=0;intTemp < aryTemp.length; intTemp++)
+				{
+					var strPair = aryTemp[intTemp].split("=");
+					if (strPair.length == 2)
+					{
+						var strName = strPair[0].toUpperCase();
+						if (strName == 'AICC_SID')
+						{
+							var sid = unescape(strPair[1]);
+							AICC_SID = strPair[1];
+						}
+						else if (strName == 'AICC_URL')
+						{
+							var url = unescape(strPair[1]);
+							if(	url.toLowerCase().indexOf('https:')==0
+								|| url.toLowerCase().indexOf('http:')==0
+								)
+							{
+								AICC_URL = strPair[1];
+							}
+						}
+					}
+				}
+
+				function findAICCwindow(win)
+				{
+					// This is a simple mechanism to walk up a frameset tree to find the window with AICC parameters.  This
+					// function should be modified, if the parameters are in a more complicated structure.
+					if (win.document.location.toString().toUpperCase().indexOf("AICC_URL") == -1)
+					{
+						if (win!=window.top)
+						{
+							win = (findAICCwindow(win.parent));
+						}
+					}
+					return win;
+				}
+
+				function setFinished(finished_bln)
+				{
+					g_bFinishDone = finished_bln;
+				}
+
+				function Finish()
+				{
+					// ExitAU
+					if (g_bFinishDone == false)
+					{
+						g_bFinishDone = true;
+						if (AICC_URL !="")
+						{
+							if (isMSIE)
+							{
+								window.frames[0].document.forms[0].submit();
+								var ms = (new Date()).getTime();
+								while ((new Date()).getTime()-ms < 1000)
+								window.status="posting to LMS...";
+							} else {
+		              			var w = varWindow.open("", "mm_exitAU", "top=4000,left=4000,scrollbars=no,directories=no,height=1,width=1,status=no,toolbar=no,menubar=no,location=no");
+	              				if (w == null)
+	              				{
+	              					showFlash(strExitFile + strURLParams, 1, 1, 0);
+									alert(strExitMessage);
+			              		}
+			              		else
+			              		{
+									w.document.write("<html><head>"+"<script"+">function exitAU() {window.document.forms[0].submit();}</"+"script>"+
+													"</head>"+
+							                     		"<body>"+
+							                     			"<form action='"+
+																sanitizeForbiddenHTMLTextChars(unescape(z))+
+																"' method='post'>"+
+															"<input type='hidden' name='session_id' value='"+unescape(AICC_SID)+"'>"+
+															"<input type='hidden' name='version' value='3.5'>"+
+															"<input type='hidden' name='command' value='ExitAU'>"+
+															"</form>"+
+												 		"</body>"+
+													"</html>");
+									w.exitAU();
+	              				}
+							}
+          				}
+					}
+				}
+
+				function isrc()
+				{
+					return '<HTML><head><script><'+'/script></head><body MARGINWIDTH="0" MARGINHEIGHT="0" LEFTMARGIN="0" RIGHTMARGIN="0" TOPMARGIN="0" BOTTOMMARGIN="0">'+
+						   "<form action='"+
+								sanitizeForbiddenHTMLTextChars(unescape(AICC_URL))+
+								"' method='post' name='brz' ><input type='hidden' name='session_id' value='"+
+								sanitizeForbiddenHTMLTextChars(unescape(AICC_SID))+
+								"'/><input type='hidden' name='version' value='3.5'/><input type='hidden' name='command' value='ExitAU'/></form>"+
+						   "</body></html>";
+				}
+
+				if (isMSIE) {
+					document.write('<iframe name="iframe" width="0" height="0" src="javascript:parent.isrc()"></iframe>');
+				}
+			-->
+		</script>
+	</head>
+	<body bgcolor="#FFFFFF" onunload="Finish()">
+		<script type="text/javascript" language="JavaScript" name="cmifrag">
+			showFlash(strURLFile + strURLParams, '100%', '100%', false);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?>
+<presentation width="720" height="540" start="play" buildNum="7.0.7.7746">
+	<presentationTitle>ARRAYS_XII</presentationTitle>
+	<speakers></speakers>
+	<backgrounds>
+		<background url="Master8000000c.swf"/>
+	</backgrounds>
+	<search url="srchdata.xml"/>
+	<slides>
+		<slide id="256" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide1.swf"/>
+			<slideBackground index="0" frameToPlay="1" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>ARRAYS</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="1"/>
+		</slide>
+		<slide id="257" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide2.swf"/>
+			<slideBackground index="0" frameToPlay="3" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Data Structure</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="2"/>
+		</slide>
+		<slide id="258" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide3.swf"/>
+			<slideBackground index="0" frameToPlay="5" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="3"/>
+		</slide>
+		<slide id="259" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide4.swf"/>
+			<slideBackground index="0" frameToPlay="7" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Array</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="4"/>
+		</slide>
+		<slide id="260" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide5.swf"/>
+			<slideBackground index="0" frameToPlay="9" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Structure</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="5"/>
+		</slide>
+		<slide id="261" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide6.swf"/>
+			<slideBackground index="0" frameToPlay="11" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Stack</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="6"/>
+		</slide>
+		<slide id="262" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide7.swf"/>
+			<slideBackground index="0" frameToPlay="13" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Queue</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="7"/>
+		</slide>
+		<slide id="263" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide8.swf"/>
+			<slideBackground index="0" frameToPlay="15" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Link-List</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="8"/>
+		</slide>
+		<slide id="264" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide9.swf"/>
+			<slideBackground index="0" frameToPlay="17" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Tree</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="9"/>
+		</slide>
+		<slide id="265" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide10.swf"/>
+			<slideBackground index="0" frameToPlay="19" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Operation on Data Structures</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="10"/>
+		</slide>
+		<slide id="266" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide11.swf"/>
+			<slideBackground index="0" frameToPlay="21" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Type of Array</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="11"/>
+		</slide>
+		<slide id="267" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide12.swf"/>
+			<slideBackground index="0" frameToPlay="23" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Basic Operation on One-Dimensional Array</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="12"/>
+		</slide>
+		<slide id="268" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide13.swf"/>
+			<slideBackground index="0" frameToPlay="25" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Linear Search Algorithm</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="13"/>
+		</slide>
+		<slide id="269" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide14.swf"/>
+			<slideBackground index="0" frameToPlay="27" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Binary Search</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="14"/>
+		</slide>
+		<slide id="272" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide15.swf"/>
+			<slideBackground index="0" frameToPlay="29" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Binary Search</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="15"/>
+		</slide>
+		<slide id="273" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide16.swf"/>
+			<slideBackground index="0" frameToPlay="31" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="16"/>
+		</slide>
+		<slide id="270" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide17.swf"/>
+			<slideBackground index="0" frameToPlay="33" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Binary Search Algorithm</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="17"/>
+		</slide>
+		<slide id="271" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide18.swf"/>
+			<slideBackground index="0" frameToPlay="35" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Implementation using C++</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="18"/>
+		</slide>
+		<slide id="274" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide19.swf"/>
+			<slideBackground index="0" frameToPlay="37" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>INSERTION</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="19"/>
+		</slide>
+		<slide id="275" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide20.swf"/>
+			<slideBackground index="0" frameToPlay="39" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Insertion in Sorted Array</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="20"/>
+		</slide>
+		<slide id="277" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide21.swf"/>
+			<slideBackground index="0" frameToPlay="41" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>DELETION</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="21"/>
+		</slide>
+		<slide id="276" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide22.swf"/>
+			<slideBackground index="0" frameToPlay="43" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Deletion from Sorted Array</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="22"/>
+		</slide>
+		<slide id="278" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide23.swf"/>
+			<slideBackground index="0" frameToPlay="45" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>SORTING</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="23"/>
+		</slide>
+		<slide id="279" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide24.swf"/>
+			<slideBackground index="0" frameToPlay="47" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Selection / Exchange Selection Sort</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="24"/>
+		</slide>
+		<slide id="280" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide25.swf"/>
+			<slideBackground index="0" frameToPlay="49" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="25"/>
+		</slide>
+		<slide id="281" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide26.swf"/>
+			<slideBackground index="0" frameToPlay="51" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="26"/>
+		</slide>
+		<slide id="282" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide27.swf"/>
+			<slideBackground index="0" frameToPlay="53" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="27"/>
+		</slide>
+		<slide id="283" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide28.swf"/>
+			<slideBackground index="0" frameToPlay="55" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Bubble Sort</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="28"/>
+		</slide>
+		<slide id="284" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide29.swf"/>
+			<slideBackground index="0" frameToPlay="57" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="29"/>
+		</slide>
+		<slide id="285" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide30.swf"/>
+			<slideBackground index="0" frameToPlay="59" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="30"/>
+		</slide>
+		<slide id="286" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide31.swf"/>
+			<slideBackground index="0" frameToPlay="61" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="31"/>
+		</slide>
+		<slide id="287" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide32.swf"/>
+			<slideBackground index="0" frameToPlay="63" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Insertion Sort</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="32"/>
+		</slide>
+		<slide id="288" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide33.swf"/>
+			<slideBackground index="0" frameToPlay="65" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="33"/>
+		</slide>
+		<slide id="289" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide34.swf"/>
+			<slideBackground index="0" frameToPlay="67" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="34"/>
+		</slide>
+		<slide id="313" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide35.swf"/>
+			<slideBackground index="0" frameToPlay="69" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Algorithm-1 [C++ Code]</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="35"/>
+		</slide>
+		<slide id="312" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide36.swf"/>
+			<slideBackground index="0" frameToPlay="71" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Algorithm 2</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="36"/>
+		</slide>
+		<slide id="311" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide37.swf"/>
+			<slideBackground index="0" frameToPlay="73" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Algorithm-2 [C++ Code]</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="37"/>
+		</slide>
+		<slide id="290" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide38.swf"/>
+			<slideBackground index="0" frameToPlay="75" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Merging of Arrays</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="38"/>
+		</slide>
+		<slide id="291" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide39.swf"/>
+			<slideBackground index="0" frameToPlay="77" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="39"/>
+		</slide>
+		<slide id="292" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide40.swf"/>
+			<slideBackground index="0" frameToPlay="79" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="40"/>
+		</slide>
+		<slide id="293" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide41.swf"/>
+			<slideBackground index="0" frameToPlay="81" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="41"/>
+		</slide>
+		<slide id="294" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide42.swf"/>
+			<slideBackground index="0" frameToPlay="83" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="42"/>
+		</slide>
+		<slide id="295" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide43.swf"/>
+			<slideBackground index="0" frameToPlay="85" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="43"/>
+		</slide>
+		<slide id="296" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide44.swf"/>
+			<slideBackground index="0" frameToPlay="87" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="44"/>
+		</slide>
+		<slide id="297" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide45.swf"/>
+			<slideBackground index="0" frameToPlay="89" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="45"/>
+		</slide>
+		<slide id="298" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide46.swf"/>
+			<slideBackground index="0" frameToPlay="91" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="46"/>
+		</slide>
+		<slide id="299" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide47.swf"/>
+			<slideBackground index="0" frameToPlay="93" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="47"/>
+		</slide>
+		<slide id="300" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide48.swf"/>
+			<slideBackground index="0" frameToPlay="95" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="48"/>
+		</slide>
+		<slide id="301" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide49.swf"/>
+			<slideBackground index="0" frameToPlay="97" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="49"/>
+		</slide>
+		<slide id="302" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide50.swf"/>
+			<slideBackground index="0" frameToPlay="99" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="50"/>
+		</slide>
+		<slide id="303" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide51.swf"/>
+			<slideBackground index="0" frameToPlay="101" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>2D Array</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="51"/>
+		</slide>
+		<slide id="304" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide52.swf"/>
+			<slideBackground index="0" frameToPlay="103" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Row Major</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="52"/>
+		</slide>
+		<slide id="305" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide53.swf"/>
+			<slideBackground index="0" frameToPlay="105" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="53"/>
+		</slide>
+		<slide id="306" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide54.swf"/>
+			<slideBackground index="0" frameToPlay="107" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="54"/>
+		</slide>
+		<slide id="307" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide55.swf"/>
+			<slideBackground index="0" frameToPlay="109" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="55"/>
+		</slide>
+		<slide id="308" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide56.swf"/>
+			<slideBackground index="0" frameToPlay="111" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Column Major</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="56"/>
+		</slide>
+		<slide id="309" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide57.swf"/>
+			<slideBackground index="0" frameToPlay="113" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="57"/>
+		</slide>
+		<slide id="310" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide58.swf"/>
+			<slideBackground index="0" frameToPlay="115" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="58"/>
+		</slide>
+		<slide id="314" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide59.swf"/>
+			<slideBackground index="0" frameToPlay="117" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Compare Row Major Vs. Column Major Formula</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="59"/>
+		</slide>
+		<slide id="315" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide60.swf"/>
+			<slideBackground index="0" frameToPlay="119" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>NOTE : For Array like : Ar[10,5] or 10 x 5</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="60"/>
+		</slide>
+		<slide id="329" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide61.swf"/>
+			<slideBackground index="0" frameToPlay="121" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Matrix Addition/Subtraction</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="61"/>
+		</slide>
+		<slide id="316" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide62.swf"/>
+			<slideBackground index="0" frameToPlay="123" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Matrix Multiplication</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="62"/>
+		</slide>
+		<slide id="317" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide63.swf"/>
+			<slideBackground index="0" frameToPlay="125" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="63"/>
+		</slide>
+		<slide id="318" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide64.swf"/>
+			<slideBackground index="0" frameToPlay="127" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="64"/>
+		</slide>
+		<slide id="319" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide65.swf"/>
+			<slideBackground index="0" frameToPlay="129" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="65"/>
+		</slide>
+		<slide id="320" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide66.swf"/>
+			<slideBackground index="0" frameToPlay="131" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="66"/>
+		</slide>
+		<slide id="321" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide67.swf"/>
+			<slideBackground index="0" frameToPlay="133" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="67"/>
+		</slide>
+		<slide id="322" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide68.swf"/>
+			<slideBackground index="0" frameToPlay="135" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="68"/>
+		</slide>
+		<slide id="323" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide69.swf"/>
+			<slideBackground index="0" frameToPlay="137" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="69"/>
+		</slide>
+		<slide id="324" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide70.swf"/>
+			<slideBackground index="0" frameToPlay="139" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="70"/>
+		</slide>
+		<slide id="325" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide71.swf"/>
+			<slideBackground index="0" frameToPlay="141" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="71"/>
+		</slide>
+		<slide id="326" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide72.swf"/>
+			<slideBackground index="0" frameToPlay="143" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="72"/>
+		</slide>
+		<slide id="327" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide73.swf"/>
+			<slideBackground index="0" frameToPlay="145" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="73"/>
+		</slide>
+		<slide id="328" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide74.swf"/>
+			<slideBackground index="0" frameToPlay="147" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>PowerPoint Presentation</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="74"/>
+		</slide>
+		<slide id="330" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide75.swf"/>
+			<slideBackground index="0" frameToPlay="149" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Prefix, Infix, Postfix</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="75"/>
+		</slide>
+		<slide id="331" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide76.swf"/>
+			<slideBackground index="0" frameToPlay="151" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Convert Infix to Postfix</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="76"/>
+		</slide>
+		<slide id="332" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide77.swf"/>
+			<slideBackground index="0" frameToPlay="153" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="4"/>
+				<clickAnimation start="5" end="8"/>
+				<clickAnimation start="9" end="12"/>
+				<clickAnimation start="13" end="16"/>
+				<clickAnimation start="17" end="20"/>
+				<clickAnimation start="21" end="24"/>
+				<clickAnimation start="25" end="28"/>
+				<clickAnimation start="29" end="32"/>
+				<clickAnimation start="33" end="36"/>
+			</clickAnimations>
+			<slideTitle>Stack Operation Infix to Postfix (((A + B) x C) / D)</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="77"/>
+		</slide>
+		<slide id="333" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide78.swf"/>
+			<slideBackground index="0" frameToPlay="155" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="3" end="4"/>
+				<clickAnimation start="5" end="8"/>
+				<clickAnimation start="9" end="12"/>
+				<clickAnimation start="13" end="16"/>
+				<clickAnimation start="17" end="20"/>
+				<clickAnimation start="21" end="24"/>
+			</clickAnimations>
+			<slideTitle>Stack Operation Infix to Postfix (((A + B) x C) / D)</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="78"/>
+		</slide>
+		<slide id="334" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide79.swf"/>
+			<slideBackground index="0" frameToPlay="157" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="3" end="4"/>
+				<clickAnimation start="5" end="8"/>
+				<clickAnimation start="9" end="12"/>
+				<clickAnimation start="13" end="16"/>
+				<clickAnimation start="17" end="20"/>
+				<clickAnimation start="21" end="24"/>
+			</clickAnimations>
+			<slideTitle>Stack Operation Infix to Postfix (((A + B) x C) / D)</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="79"/>
+		</slide>
+		<slide id="336" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide80.swf"/>
+			<slideBackground index="0" frameToPlay="159" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Convert Infix to Prefix</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="80"/>
+		</slide>
+		<slide id="335" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide81.swf"/>
+			<slideBackground index="0" frameToPlay="161" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="4"/>
+				<clickAnimation start="5" end="8"/>
+				<clickAnimation start="9" end="12"/>
+				<clickAnimation start="13" end="16"/>
+				<clickAnimation start="17" end="20"/>
+				<clickAnimation start="21" end="24"/>
+				<clickAnimation start="25" end="28"/>
+				<clickAnimation start="29" end="32"/>
+				<clickAnimation start="33" end="36"/>
+			</clickAnimations>
+			<slideTitle>Stack Operation Infix to Prefix (((A + B) x C) / D)</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="81"/>
+		</slide>
+		<slide id="337" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide82.swf"/>
+			<slideBackground index="0" frameToPlay="163" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="3" end="4"/>
+				<clickAnimation start="5" end="8"/>
+				<clickAnimation start="9" end="12"/>
+				<clickAnimation start="13" end="16"/>
+				<clickAnimation start="17" end="20"/>
+			</clickAnimations>
+			<slideTitle>Stack Operation Infix to Prefix (((A + B) x C) / D)</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="82"/>
+		</slide>
+		<slide id="338" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide83.swf"/>
+			<slideBackground index="0" frameToPlay="165" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="4"/>
+				<clickAnimation start="5" end="8"/>
+				<clickAnimation start="9" end="12"/>
+				<clickAnimation start="13" end="16"/>
+			</clickAnimations>
+			<slideTitle>Stack Operation Infix to Prefix (((A + B) x C) / D)</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="83"/>
+		</slide>
+		<slide id="339" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide84.swf"/>
+			<slideBackground index="0" frameToPlay="167" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Convert Prefix to Postfix</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="84"/>
+		</slide>
+		<slide id="340" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide85.swf"/>
+			<slideBackground index="0" frameToPlay="169" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="4"/>
+				<clickAnimation start="5" end="8"/>
+				<clickAnimation start="9" end="12"/>
+				<clickAnimation start="13" end="16"/>
+				<clickAnimation start="17" end="20"/>
+				<clickAnimation start="21" end="24"/>
+				<clickAnimation start="25" end="28"/>
+				<clickAnimation start="29" end="32"/>
+				<clickAnimation start="33" end="36"/>
+				<clickAnimation start="37" end="40"/>
+			</clickAnimations>
+			<slideTitle>Stack Operation Prefix to Postfix (/ (x (+AB) C) D)</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="85"/>
+		</slide>
+		<slide id="341" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide86.swf"/>
+			<slideBackground index="0" frameToPlay="171" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="4"/>
+				<clickAnimation start="5" end="8"/>
+				<clickAnimation start="9" end="12"/>
+			</clickAnimations>
+			<slideTitle>Stack Operation Prefix to Postfix (/ (x (+AB) C) D)</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="86"/>
+		</slide>
+		<slide id="342" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide87.swf"/>
+			<slideBackground index="0" frameToPlay="173" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="4"/>
+				<clickAnimation start="5" end="8"/>
+				<clickAnimation start="9" end="12"/>
+			</clickAnimations>
+			<slideTitle>Stack Operation Prefix to Postfix (/ (x (+AB) C) D)</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="87"/>
+		</slide>
+		<slide id="343" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide88.swf"/>
+			<slideBackground index="0" frameToPlay="175" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="4"/>
+				<clickAnimation start="5" end="8"/>
+				<clickAnimation start="9" end="12"/>
+				<clickAnimation start="13" end="16"/>
+				<clickAnimation start="17" end="20"/>
+				<clickAnimation start="21" end="24"/>
+				<clickAnimation start="25" end="41"/>
+			</clickAnimations>
+			<slideTitle>Solve following to Postfix NOT A OR NOT B NOT C after putting braces ((NOT A) OR ((NOT B) AND (NOT C)))</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="88"/>
+		</slide>
+		<slide id="344" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide89.swf"/>
+			<slideBackground index="0" frameToPlay="177" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="4"/>
+				<clickAnimation start="5" end="8"/>
+				<clickAnimation start="9" end="12"/>
+				<clickAnimation start="13" end="16"/>
+				<clickAnimation start="17" end="20"/>
+				<clickAnimation start="21" end="37"/>
+			</clickAnimations>
+			<slideTitle>Solve following to Postfix NOT A OR NOT B NOT C ((NOT A) OR ((NOT B) AND (NOT C)))</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="89"/>
+		</slide>
+		<slide id="345" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide90.swf"/>
+			<slideBackground index="0" frameToPlay="179" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="4"/>
+				<clickAnimation start="5" end="8"/>
+				<clickAnimation start="9" end="12"/>
+				<clickAnimation start="13" end="16"/>
+				<clickAnimation start="17" end="20"/>
+				<clickAnimation start="21" end="37"/>
+			</clickAnimations>
+			<slideTitle>Solve following to Postfix NOT A OR NOT B NOT C ((NOT A) OR ((NOT B) AND (NOT C)))</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="90"/>
+		</slide>
+		<slide id="346" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide91.swf"/>
+			<slideBackground index="0" frameToPlay="181" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="4"/>
+				<clickAnimation start="5" end="21"/>
+			</clickAnimations>
+			<slideTitle>Solve following to Postfix NOT A OR NOT B NOT C ((NOT A) OR ((NOT B) AND (NOT C)))</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="91"/>
+		</slide>
+		<slide id="348" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide92.swf"/>
+			<slideBackground index="0" frameToPlay="183" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<clickAnimations>
+				<clickAnimation start="1" end="4"/>
+				<clickAnimation start="5" end="21"/>
+			</clickAnimations>
+			<slideTitle>Solve following to Postfix NOT A OR NOT B NOT C ((NOT A) OR ((NOT B) AND (NOT C)))</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="92"/>
+		</slide>
+		<slide id="349" frameRate="30" totalFrames="150" advance="auto" blockMovement="false" type="normal">
+			<content url="Slide93.swf"/>
+			<slideBackground index="0" frameToPlay="185" duration="2" showAfterFrame="0"/>
+			<flvContents></flvContents>
+			<slideTitle>Thanks……………</slideTitle>
+			<notes isHTML="true"></notes>
+			<slideThumbnail url="thumb.swf" frame="93"/>
+		</slide>
+	</slides>
+	<attachments></attachments>
+</presentation>

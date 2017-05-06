@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tracking-metadata generator="Presenter ver 7.0" version="1.0">
+	<objective id="Quiz10004" max-score="9" passing-score="4" min-score="0">
+		<name>Quiz</name>
+		<interactions>
+			<interaction id="Interaction10011" type="choice" score="1" correct-response="A">
+				<name>Multiple choice</name>
+				<title></title>
+				<responses>
+					<response id="A"> Type of Data and its associated operations </response>
+					<response id="B"> Type of Working environment </response>
+					<response id="C"> Different types of Data </response>
+					<response id="D"> Typing of Data </response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10023" type="choice" score="1" correct-response="A">
+				<name>Multiple choice</name>
+				<title></title>
+				<responses>
+					<response id="A"> double </response>
+					<response id="B"> class </response>
+					<response id="C"> array </response>
+					<response id="D"> pointer </response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10035" type="choice" score="1" correct-response="A">
+				<name>Multiple choice</name>
+				<title></title>
+				<responses>
+					<response id="A"> Union </response>
+					<response id="B"> Function </response>
+					<response id="C"> void </response>
+					<response id="D"> int </response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10047" type="true-false" score="1" correct-response="true">
+				<name>True/False</name>
+				<title></title>
+				<responses>
+					<response id="true"> True </response>
+					<response id="false"> False </response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10055" type="fill-in" score="1" correct-response="fundamental">
+				<title> &lt;1&gt; data type   
+int is the
+ </title>
+				<responses>
+					<response id="1">
+						<option id="0">*</option>
+						<option id="1">fundamental</option>
+					</response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10062" type="matching" score="1" correct-response="{0.A,1.B,2.C,3.D}">
+				<name>Matching</name>
+				<title></title>
+				<responses>
+					<matching-set type="source">
+						<response id="0">int </response>
+						<response id="1">long </response>
+						<response id="2">Enumeration </response>
+						<response id="3">array </response>
+					</matching-set>
+					<matching-set type="target">
+						<response id="A">Fundamental Data Type </response>
+						<response id="B">Modifier </response>
+						<response id="C">User Defined Data Type </response>
+						<response id="D">Derived Data Type </response>
+					</matching-set>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10076" type="long-fill-in" score="1" correct-response="named memory location which holds the address of anyother memorilocation.">
+				<title></title>
+				<responses>
+					<response id="1">
+						<option id="0">*</option>
+						<option id="1">named memory location which holds the address of anyother memorilocation.</option>
+					</response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10104" type="fill-in" score="1" correct-response="integer">
+				<title> C++ code int *ptr is to create a pointer of &lt;1&gt; type  
+ </title>
+				<responses>
+					<response id="1">
+						<option id="0">*</option>
+						<option id="1">integer</option>
+					</response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10122" type="choice" score="1" correct-response="A">
+				<name>Multiple choice</name>
+				<title></title>
+				<responses>
+					<response id="A"> Fundamental Data Types </response>
+					<response id="B"> Derived Data Type </response>
+					<response id="C"> User Defined Data Type </response>
+					<response id="D"> Variable </response>
+				</responses>
+			</interaction>
+			<interaction id="Interaction10134_0" type="likert">
+				<title>Agree</title>
+				<responses>
+					<response id="1">Disagree</response>
+					<response id="2">Somewhat Disagree</response>
+					<response id="3">Neutral</response>
+					<response id="4">Somewhat Agree</response>
+					<response id="5">Agree</response>
+				</responses>
+			</interaction>
+		</interactions>
+	</objective>
+</tracking-metadata>

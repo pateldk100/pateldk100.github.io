@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document-metadata version="1.0" xmlns="http://breeze.macromedia.com/">
+	<document-info>
+		<title>Linked_List</title>
+		<summary></summary>
+		<author/>
+		<keywords/>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/><view-link href="/Viewer.swf?slide={position}"/>
+	</document-info>
+	<section type="slide" position="1" xmlns="">
+		<title></title>
+		<content>CLASS XII Prepared &amp; Presented By : Dinesh Patel, PGT (CS) KV, NAD Karanja  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/></section>
+	<section type="slide" position="2" xmlns="">
+		<title></title>
+		<content>Linked-list is the linear collection of data in form of Nodes pointing to the next nodes through pointer. info NULL 11011 It is of Two Types :   Singly Linked-List   Doubly Linked-List info 11013 info 11015 info NULL 11011 11013 11015 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000002.jpg"/></section>
+	<section type="slide" position="3" xmlns="">
+		<title></title>
+		<content>Linked-list is required when no maximum no. of occurrence is known. Linked-list is the Dynamic allocation of memory. info 11013 info 11015 info NULL 11011 11013 11015 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000003.jpg"/></section>
+	<section type="slide" position="4" xmlns="">
+		<title></title>
+		<content>Static Memory Allocation :   Memory must be reserved before processing.  Limited means fixed no. of data can be stored only.  Access through Array name with index no. eg. Creation of arrays :     Ar[50] </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000004.jpg"/></section>
+	<section type="slide" position="5" xmlns="">
+		<title></title>
+		<content>Dynamic Memory Allocation :  Allow to create new memory location at the time of processing. Unlimited  Access through pointer only. eg. Creation of Linked-List info 11013 info 11015 info NULL 11011 11013 11015 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000005.jpg"/></section>
+	<section type="slide" position="6" xmlns="">
+		<title></title>
+		<content>Struct node {       int info ;    node *next;      }; Pointer next  Self referential structure info 11013 info 11015 info NULL 11011 11013 11015 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000006.jpg"/></section>
+	<section type="slide" position="7" xmlns="">
+		<title></title>
+		<content>INSERTION  At End In Middle   (not in course) In Beginning </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000007.jpg"/></section>
+	<section type="slide" position="8" xmlns="">
+		<title></title>
+		<content>11011 11011 Insertion at End of the list Rear Front A NULL </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000008.jpg"/></section>
+	<section type="slide" position="9" xmlns="">
+		<title></title>
+		<content>11011 11013 B NULL 11011 Insertion at End of the list Rear Front A 11013 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000009.jpg"/></section>
+	<section type="slide" position="10" xmlns="">
+		<title></title>
+		<content>11011 11013 11015 B 11015 B NULL 11011 Insertion at End of the list Rear Front A 11013 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000010.jpg"/></section>
+	<section type="slide" position="11" xmlns="">
+		<title></title>
+		<content>11011 11013 11015 B 11015 B 11017 11011 11017 B NULL Insertion at End of the list Rear Front A 11013 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000011.jpg"/></section>
+	<section type="slide" position="12" xmlns="">
+		<title></title>
+		<content>11011 11013 11015 B 11015 B 11017 11011 11017 B 11019 11019 B NULL Insertion at End of the list Front Rear A 11013 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000012.jpg"/></section>
+	<section type="slide" position="13" xmlns="">
+		<title></title>
+		<content>//Node Structure struct node {   int  info;   node * next ;       } *front, *rear, *newptr, *save, *ptr ; //New Node Creation Function node  * create_new_node ( int n )  {      ptr = new node;   ptr-&gt;info = n;   ptr-&gt;next = NULL   return ptr;  } Always new node pointer must be NULL Value to be assigned Dynamic memory allocation /creation </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000013.jpg"/></section>
+	<section type="slide" position="14" xmlns="">
+		<title></title>
+		<content>//Insertion at End of linked-List void insert_End ( node * np)  {   if ( front = = NULL)        {  front = np;    rear = np;           }      else          {     rear -&gt; next = np;    rear = np;           }  }    Making rear to last created node. Loading address of new node to previous node’s pointer If there is no front then make new node to front &amp; rear. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000014.jpg"/></section>
+	<section type="slide" position="15" xmlns="">
+		<title></title>
+		<content>// Display/ Traversal of linked-List void display ( )  {    ptr = front;   while ( ptr )        {  cout&lt;&lt; ptr -&gt; info;    ptr = ptr -&gt; next;           }     }    Pointing to the next node of list. While last node not reached. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000015.jpg"/></section>
+	<section type="slide" position="16" xmlns="">
+		<title></title>
+		<content>void main()  {  int  val;   char ch=‘y’;     front = rear = NULL;   while (ch == ‘y’ || ch ==‘Y’)             {   cout&lt;&lt;“Entre a value for new node : “;    cin&gt;&gt;val;    newptr = create_new_node ( val );    insert_End ( newptr );    display ( front );            cout&lt;&lt;“Add more node (y/n) : “;            cin&gt;&gt;ch;            }   }      Function call to create new node with required value for info. Making front &amp; rear to NULL Function call to insert node at end in list </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000016.jpg"/></section>
+	<section type="slide" position="17" xmlns="">
+		<title></title>
+		<content>Beg Pointer Insertion at Beginning of the list A 11013 11011 11013 11015 B 11015 B NULL 11017 11017 B 11011 Front Rear Front Rear A 11013 11011 11013 11015 B 11015 B NULL 11013 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000017.jpg"/></section>
+	<section type="slide" position="18" xmlns="">
+		<title></title>
+		<content>//Insertion at Beginning of linked-List void Insert_Beg ( node * np)  {   if ( front = = NULL)        {  front = np;    rear = np;           }      else          {     save = front;    front = np;    front -&gt; next = save;           }  }    Making front to new created node. Loading address of front node to another node pointer If there is no front then make new node to front &amp; rear. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000018.jpg"/></section>
+	<section type="slide" position="19" xmlns="">
+		<title></title>
+		<content>Beg Pointer Deletion from End of the list A 11013 11011 11013 11015 B NULL B NULL 11013 Front Rear Front Rear Delete Last node Shift Rear to previous node and make its pointer NULL A 11013 11011 11013 11015 B 11015 B NULL 11013 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000019.jpg"/></section>
+	<section type="slide" position="20" xmlns="">
+		<title></title>
+		<content>//Deletion of node from End of linked-List void Delete_End ( )  {  ptr = front;                     // front is global    while ( ptr -&gt; next != NULL)    {      save = ptr;      ptr = ptr -&gt; next;    }    save -&gt; next = NULL;    rear = save;    delete ptr;  };   Delete the last node i.e. ptr Insert NULL in previous Node Keep track of previous node Make second last node as rear </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000020.jpg"/></section>
+	<section type="slide" position="21" xmlns="">
+		<title></title>
+		<content>Beg Pointer Deletion from Beginning of the list Delete Last node Shift Front to second node Front Rear A 11013 11011 11013 11015 B 11015 B NULL 11013 A 11013 11011 11013 11015 B 11015 B NULL 11015 Front Rear </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000021.jpg"/></section>
+	<section type="slide" position="22" xmlns="">
+		<title></title>
+		<content>//Deletion of node from Beginning of linked-List  void Delete_Beg()  {     ptr = front;    front = front -&gt; next;    delete ptr;     };   Delete the temp pointer i.e. prt to free the memory Make next node as  front  Store first node to a temp pointer to delete. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000022.jpg"/></section>
+	<section type="slide" position="23" xmlns="">
+		<title></title>
+		<content>Static memory Allocation </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000023.jpg"/></section>
+	<section type="slide" position="24" xmlns="">
+		<title></title>
+		<content>Insertion in stack Array Stack Push   12    Top = -1 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000024.jpg"/></section>
+	<section type="slide" position="25" xmlns="">
+		<title></title>
+		<content>Insertion in stack Array Stack 12 Top = 0 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000025.jpg"/></section>
+	<section type="slide" position="26" xmlns="">
+		<title></title>
+		<content>Insertion in stack Array Stack Push   15    12 Top = 0 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000026.jpg"/></section>
+	<section type="slide" position="27" xmlns="">
+		<title></title>
+		<content>Insertion in stack Array Stack 15 12 Top = 1 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000027.jpg"/></section>
+	<section type="slide" position="28" xmlns="">
+		<title></title>
+		<content>Insertion in stack Array Stack 15 12 Push   18    Top = 1 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000028.jpg"/></section>
+	<section type="slide" position="29" xmlns="">
+		<title></title>
+		<content>Insertion in stack Array Stack 15 12 18 Top = 2 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000029.jpg"/></section>
+	<section type="slide" position="30" xmlns="">
+		<title></title>
+		<content>Insertion in stack Array 12 15 18 Stack Top = 3 Top = 4 Top = 5 Top = 6 Top = 2 5 20 25 4 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000030.jpg"/></section>
+	<section type="slide" position="31" xmlns="">
+		<title></title>
+		<content>Insertion into Stack Array  void Stack_Push ( int n )  {     if ( top = = size - 1)       {    cout &lt;&lt; "Stack full......";          exit (1);      }    else     stack [++top] = n;   } Global Variable const int size=10; int  stack [size], top =-1; </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000031.jpg"/></section>
+	<section type="slide" position="32" xmlns="">
+		<title></title>
+		<content>Deletion  from Stack Array 12 15 18 Stack Top = 3 Top = 4 Top = 5 Top = 6 Top = 2 5 20 25 4 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000032.jpg"/></section>
+	<section type="slide" position="33" xmlns="">
+		<title></title>
+		<content>Deletion from Stack Array  void Stack_Pop()   {  if ( top == -1 )     {    cout &lt;&lt; "No element..........";          exit (1);    }    else     top - - ;  } Global Variable const int size=10; int  stack [size], top =-1; </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000033.jpg"/></section>
+	<section type="slide" position="34" xmlns="">
+		<title></title>
+		<content>Display or Traversal  of  Stack Array  void Display_Stack ( )   {   for ( int I = top – 1 ;   I &gt; = 0 ;    I - - )     cout &lt;&lt; stack [ i ] &lt;&lt; '\n';  } Global Variable const int size=10; int  stack [size], top =-1; </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000034.jpg"/></section>
+	<section type="slide" position="35" xmlns="">
+		<title></title>
+		<content>Static memory Allocation </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000035.jpg"/></section>
+	<section type="slide" position="36" xmlns="">
+		<title></title>
+		<content>Insertion in Queue Array Rear  = -1 Rear  =  0 Rear  =  1 Rear  =  2 Rear  =  3 Rear  =  4 Rear  =  5 Rear  =  6 Front  = -1 Front  =  0 10 20 30 40 50 60 25 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000036.jpg"/></section>
+	<section type="slide" position="37" xmlns="">
+		<title></title>
+		<content>Insertion into Queue Array  void queue_push ( int n )  {           if ( rear = = size - 1)     {     cout &lt;&lt; "Queue full......";    exit(1);     }        else if  ( rear = = -1)     { front = rear =0;    queue [rear] = n;             }         else    queue [++ rear ] = n;  } Global Variable const int size=10; int  queue [size], front =-1,rear =-1; </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000037.jpg"/></section>
+	<section type="slide" position="38" xmlns="">
+		<title></title>
+		<content>Deletion from Queue Array  void queue_pop ( )  {     if ( front = = -1)        { cout &lt;&lt; “ No element..........";     exit(1);       }    else    front + +;  } Global Variable const int size=10; int  queue [size], front =-1,rear =-1; </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000038.jpg"/></section>
+	<section type="slide" position="39" xmlns="">
+		<title></title>
+		<content>Display the Queue Array  void display ( )  {         for ( int i = front ;  i &lt; = rear ;   i + +)           cout &lt; &lt; queue [ i ] &lt;&lt; '\n‘ ;  } Global Variable const int size=10; int  queue [size], front =-1,rear =-1; </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000039.jpg"/></section>
+	<section type="slide" position="40" xmlns="">
+		<title></title>
+		<content>Static memory Allocation </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000040.jpg"/></section>
+	<section type="slide" position="41" xmlns="">
+		<title></title>
+		<content>Front Rear Circular Queue </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000041.jpg"/></section>
+</document-metadata>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<breeze-manifest version="1.0" xmlns="http://breeze.macromedia.com/">
+	<document type="slide-presentation" icon="presentation" duration="95" section-count="19"/>
+	<assets>
+		<asset type="document-view">
+			<entry href="viewer.swf" width="900" height="550"/>
+			
+<file href="data"/>
+<file href="breeze-manifest.xml"/>
+<file href="viewer.swf"/>
+<file href="as2-wrapper.swf"/>
+<file href="viewer-lite.swf"/>
+<file href="components.swf"/>
+<file href="loadflash.js"/>
+
+		</asset>
+		<asset type="document-metadata" location="file">
+			<file href="data/srchdata.xml"/>
+		</asset>
+	</assets>
+</breeze-manifest>

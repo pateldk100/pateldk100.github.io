@@ -1,0 +1,149 @@
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en">
+<!-- saved from url=(0014)about:internet -->
+<html>
+	<head>
+		<title>Presenter File Attachment</title>
+		<style type="text/css">
+			<!--
+			body,html {
+				margin:0px; 
+				padding:0px;
+				height:100%;
+				overflow:hidden;
+			}
+			-->
+		</style>
+		<script language="JavaScript" type="text/javascript">
+			<!--
+				var o = 
+				{ 
+					msg: "Save to My Computer",
+					title: "Presenter File Attachment",
+					prompt: "Click to Download",
+					doc: "",
+					path: ""
+				};
+				var t = window.location.search.split('&');
+				for (var i = 0; i < t.length; ++i)
+				{
+					var p = t[i];
+					if (p.charAt(0) == '?') 
+						p = p.substring(1, p.length);
+					var s = p.split('=');
+					if (s[0] && s[1])
+						o[s[0]] = s[1];
+				}
+				function fromUTF8(in_s)
+				{
+					var out_s = "";
+					var i = 0;
+					while (i < in_s.length)
+					{
+						var b = in_s.charCodeAt(i++);
+						var c = 0;
+						if (b <= 0x7F)
+						{
+							c = b;
+						}
+						else if ((b & 0xE0) == 0xC0)
+						{
+							c = (b & 0x1F) << 6;
+							b = in_s.charCodeAt(i++);
+							c |= b & 0x3F;
+						}
+						else if ((b & 0xF0) == 0xE0)
+						{
+							c = (b & 0x0F) << 12;
+							b = in_s.charCodeAt(i++);
+							c |= (b & 0x3F) << 6;
+							b = in_s.charCodeAt(i++);
+							c |= b & 0x3F;
+						}
+						if (c > 0)
+						{
+							out_s += String.fromCharCode(c);
+						}
+					}
+					return out_s;
+				}
+				function sanitizeForbiddenHTMLTextChars(in_s,forUrl)
+				{
+					var out_s = in_s.toString();//We are sometimes called to sanitize non-strings...like document.location
+					out_s = out_s.split("<").join("&lt;");
+					out_s = out_s.split(">").join("&gt;");
+					if(forUrl==undefined || forUrl==false)
+					{
+						out_s = out_s.split("'").join("&apos;");
+						out_s = out_s.split('"').join("&quot;");
+					}
+					return out_s;
+				}
+				
+				function escapeForUrl(in_s)
+				{
+					var out_s = "";
+					var i = 0;
+					while (i < in_s.length)
+					{
+						var b = in_s.charCodeAt(i++);
+						var c = 0;
+						if( (b >= 97 && b <= 122) || (b >= 65 && b <= 90) || (b >= 48 && b <= 57) || (b > 127) )
+						{
+							c = b;
+						}
+						if (c > 0)
+						{
+							out_s += String.fromCharCode(c);
+						}
+						else
+						{
+							out_s+= '%'+b.toString(16);
+						}
+					}
+					return out_s;
+				}
+				document.title = sanitizeForbiddenHTMLTextChars(fromUTF8(unescape(o.title)));
+			//-->
+		</script>
+	</head>
+	<body marginheight="0" marginwidth="0" leftmargin="0" topmargin="0" bgcolor="#9fa7aa">
+		<center>
+			<table border="0" width="302" height="100%">
+				<tr>
+					<td>
+						<table border="0" background="docwrap.gif" width="302" height="110">
+							<tr>
+								<td>
+									<div style="padding-left:80px;text-align:left;font-family:Verdana, Helvetica, sans-serif;font-size:0.7em">
+										<script language="JavaScript" type="text/javascript">
+											<!--
+												document.write(sanitizeForbiddenHTMLTextChars(fromUTF8(unescape(o.msg))));
+											//-->
+										</script>
+									</div>
+									<div style="padding-left:80px;text-align:left;font-family:Verdana, Helvetica, sans-serif;font-size:0.8em">
+										<b>
+											<script language="JavaScript" type="text/javascript">
+												<!--
+													document.write(sanitizeForbiddenHTMLTextChars(fromUTF8(unescape(o.doc))));
+												//-->
+											</script>
+										</b>
+									</div>
+									<br>
+									<div style="padding-right:16px;text-align:right;font-family:Verdana, Helvetica, sans-serif;font-size:0.7em">
+										<script language="JavaScript" type="text/javascript">
+											<!--
+												document.write('<a href="'+escapeForUrl(sanitizeForbiddenHTMLTextChars(fromUTF8(unescape(o.path)),true))+'?download=true">'+sanitizeForbiddenHTMLTextChars(fromUTF8(unescape(o.prompt)))+'</a>');
+											//-->
+										</script>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</center>
+	</body>
+</html>

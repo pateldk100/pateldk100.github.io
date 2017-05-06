@@ -1,0 +1,1 @@
+<?php if(isset($_SESSION['id'])) { if($_SESSION['utype']=="A") {echo "<a href='cpannel.php'>Control Pannel</a>"; else echo "<a href='account_pannel.php'>My Account</a>";} else echo "<a href='usertype.php'>Sign-up</a>";} ?>

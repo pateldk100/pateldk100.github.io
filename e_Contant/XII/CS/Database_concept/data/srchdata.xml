@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document-metadata version="1.0" xmlns="http://breeze.macromedia.com/">
+	<document-info>
+		<title>DATABASE CONCEPT</title>
+		<summary></summary>
+		<author/>
+		<keywords/>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/><view-link href="/Viewer.swf?slide={position}"/>
+	</document-info>
+	<section type="slide" position="1" xmlns="">
+		<title></title>
+		<content>Chapter 11 Class XII Presented by : Dinesh Patel PGT [Comp. Sc.] KV NAD, Karanja </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000001.jpg"/></section>
+	<section type="slide" position="2" xmlns="">
+		<title></title>
+		<content>Database is the collection of interrelated data / tables . Database Management System :  S/w that manage data on computer for proper utilization on  Computer . Database Tables Fields Data Character </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000002.jpg"/></section>
+	<section type="slide" position="3" xmlns="">
+		<title></title>
+		<content>To reduce Data Redundancy To Control Data Inconsistency To Share Data among different applications. To enforce Standards   [ date format, number         formats] To Secure Data  [ Password protection,         required facility] To maintain Integrity [ check validity of data] </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000003.jpg"/></section>
+	<section type="slide" position="4" xmlns="">
+		<title></title>
+		<content>Providing only required data to the user. Abstraction Student_Info Admn.  No. Name Class DOB Father’s Name Mother’s Name Address Father’s Occupation Category Last School Student_Info Name Class DOB Father’s Name Category </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000004.jpg"/></section>
+	<section type="slide" position="5" xmlns="">
+		<title></title>
+		<content>Admn_No Name Fee    int        Admn_No    char    Name [30]    float    Fee Admn_No    [ 02 bytes,    Location  :  FF00101F ] Name [30]  [30 bytes,     Location  :  F0101F01 ] Fee   [04 bytes,     Location  :  F001F01F ] External / View Level Conceptual Level Internal / Physical Level </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000005.jpg"/></section>
+	<section type="slide" position="6" xmlns="">
+		<title></title>
+		<content>Changing the Data definition at any one level will not affect to another level called Data Independance. It is of Two Types Physical Data Independence   [ Changing on Physical Level not effect to Conceptual Level.] Logical Data Independence  [ Changing on Conceptual Level not effect to Physical Level.]  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000006.jpg"/></section>
+	<section type="slide" position="7" xmlns="">
+		<title></title>
+		<content>External and Conceptual Level use certain Data Structure to use database efficiently with its all support.  To manage the database some structures are described called Database Model.  It is of Three types : Relational Data Model Network Data Model Hierarchical Data Model   </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000007.jpg"/></section>
+	<section type="slide" position="8" xmlns="">
+		<title></title>
+		<content>In this model Data is being stored in form of Rows and Columns. The collection of Row &amp; Columns called Table / Relation. Fields Record Admn_no Name Class DOB Sex 1212 Kapil XII 12/05/1980 M 1587 Seema XII 19/12/1982 F 2145 Kiran XI 25/09/1990 F 1385 Chaman XI 14/02/1992 M 1141 Anubhav VI 02/11/1999 M </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000008.jpg"/></section>
+	<section type="slide" position="9" xmlns="">
+		<title></title>
+		<content>The collection of Records connected to one other with the Links. The structure known as Arbitrary Graph. Link 1254 Seema Singh  12/05/1990 F Father_Name Mother_Mane XII Science </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000009.jpg"/></section>
+	<section type="slide" position="10" xmlns="">
+		<title></title>
+		<content>The collection of Records connected to one other with the Links. The structure known as Tree. Link 1254 Seema Singh  12/05/1990 F Father_Name Mother_Mane XII Science </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000010.jpg"/></section>
+	<section type="slide" position="11" xmlns="">
+		<title></title>
+		<content>Comparison Key Relational Data Model Network Data Model Hierarchical Data Model Relationship of Data Rows and Columns By Links By Links Structure Table Arbitrary Graph Tree </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000011.jpg"/></section>
+	<section type="slide" position="12" xmlns="">
+		<title></title>
+		<content>Relation or Tuple : It is the collection of  data in form of Rows &amp; Columns. Domain : It is the Database server. Attribute : The columns /Field of table.  Degree :  Number of Columns in a table. Cardinality : Number of records in a table. Views :  (i)     Virtual table that does not really exist.    (ii)   Created from more than one table   (iii)   Does not occupies any memory.  </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000012.jpg"/></section>
+	<section type="slide" position="13" xmlns="">
+		<title></title>
+		<content>Primary Key : Key or the combination of Keys that can identify a record uniquely.  Candidate Key : The Key or the Combination of Keys that can serve as primary key  for a Table is called Candidate Key. Alternate Key : In case of More than one candidate key which is not selected as Primary key, is called Alternate Key. Foreign Key : The primary key of a parent table which is derived in to child table  [One to Many ] called Foreign table. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000013.jpg"/></section>
+	<section type="slide" position="14" xmlns="">
+		<title></title>
+		<content>Candidate Key Both can be Primary Key Admn_no Name Roll_no Class DOB Sex 1212 Kapil 1 XII 12/05/1980 M 1587 Seema 2 XII 19/12/1982 F 2145 Kiran 3 XI 25/09/1990 F 1385 Chaman 4 XI 14/02/1992 M 1141 Anubhav 5 VI 02/11/1999 M </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000014.jpg"/></section>
+	<section type="slide" position="15" xmlns="">
+		<title></title>
+		<content>Primary Key Alternate Key Admn_no Name Roll_no Class DOB Sex 1212 Kapil 1 XII 12/05/1980 M 1587 Seema 2 XII 19/12/1982 F 2145 Kiran 3 XI 25/09/1990 F 1385 Chaman 4 XI 14/02/1992 M 1141 Anubhav 5 VI 02/11/1999 M </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000015.jpg"/></section>
+	<section type="slide" position="16" xmlns="">
+		<title></title>
+		<content>Primary Key Foreign Key Parent Table OR  Master Table Child Table OR Detail Table Admn_no Name Roll_no Class DOB Sex 1212 Kapil 1 XII 12/05/1980 M 1587 Seema 2 XII 19/12/1982 F 2145 Kiran 3 XI 25/09/1990 F 1385 Chaman 4 XI 14/02/1992 M 1141 Anubhav 5 VI 02/11/1999 M Admn no Subject Marks  1212 Physics 80 1212 Chemistry 85 1385 Physics 95 1385 CS 99 1385 Chemistry 90 1212 CS 90 1212 Maths 85 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000016.jpg"/></section>
+	<section type="slide" position="17" xmlns="">
+		<title></title>
+		<content>   Relation algebra is a collection of operation on relation that works on relation and produce result as relation.  Operations are of following Types Select Project Cartesian Product Union Difference Intersections  etc. </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000017.jpg"/></section>
+	<section type="slide" position="18" xmlns="">
+		<title></title>
+		<content>   σ  price &gt; 20.00 (item) Select all from item table where price &gt; 20.00.              ITEM Select All Where Condition Table Name Horizontal subset of table selection Item no Name Qty Price 1212 Pencil 12 10.50 1587 Note Book 25 25.00 2145 Pen 35 12.00 1385 Ink 4 18.50 1141 Book 15 50.55 Item no Name Qty Price 1587 Note Book 25 25.00 1141 Book 15 50.55 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000018.jpg"/></section>
+	<section type="slide" position="19" xmlns="">
+		<title></title>
+		<content>   π  Name, Price (item) Select Name and Price from item table.              ITEM Select All Where Condition Table Name Vertical subset of table selection Item no Name Qty Price 1212 Pencil 12 10.50 1587 Note Book 25 25.00 2145 Pen 35 12.00 1385 Ink 4 18.50 1141 Book 15 50.55 Name Price Note Book 25.00 Book 50.55 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000019.jpg"/></section>
+	<section type="slide" position="20" xmlns="">
+		<title></title>
+		<content>             Item  x  Shop Table Table Result No. of rows  x  No. of rows Shop no S_Name Address 101 R.K. Stationary 5A/12  M.G. 502 Maya Books 125, Uran Item no I_Name Qty Price Shop no S_Name Address 1212 Pencil 12 10.50 101 R.K. Stationary 5A/12  M.G. 1212 Pincil 12 10.50 502 Maya Books 125, Uran 1587 Note Book 25 25.00 101 R.K. Stationary 5A/12  M.G. 1587 Note Book 25 25.00 502 Maya Books 125, Uran 2145 Pen 35 12.00 101 R.K. Stationary 5A/12  M.G. 2145 Pen 35 12.00 502 Maya Books 125, Uran Item no I_Name Qty Price 1212 Pencil 12 10.50 1587 Note Book 25 25.00 2145 Pen 35 12.00 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000020.jpg"/></section>
+	<section type="slide" position="21" xmlns="">
+		<title></title>
+		<content>A U B A B Result : 11,  15,  20, 25, 30, 35, 40 20 25 15 11 20 25 15 11 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000021.jpg"/></section>
+	<section type="slide" position="22" xmlns="">
+		<title></title>
+		<content>             Shop1  U  Shop2 Table Table Result Common will display once only. Shop1 Shop2              Shop1  U  Shop2 Item no I_Name Price  101 Books 65.00 1212 Pencil 10.50 Item no I_Name Price 101 Books 65.00 1212 Pencil 10.50 1587 Note Book 25.00 2145 Pen 12.00 Item no I_Name Price 1212 Pencil 10.50 1587 Note Book 25.00 2145 Pen 12.00 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000022.jpg"/></section>
+	<section type="slide" position="23" xmlns="">
+		<title></title>
+		<content>A П B A B Result : 25 20 25 15 11 20 25 15 11 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000023.jpg"/></section>
+	<section type="slide" position="24" xmlns="">
+		<title></title>
+		<content>             Shop1  П  Shop2 Table Table Result Common will display  only. Shop1 Shop2              Shop1 П  Shop2 Item no I_Name Price  101 Books 65.00 1212 Pencil 10.50 Item no I_Name Price 1212 Pencil 10.50 Item no I_Name Price 1212 Pencil 10.50 1587 Note Book 25.00 2145 Pen 12.00 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000024.jpg"/></section>
+	<section type="slide" position="25" xmlns="">
+		<title></title>
+		<content>A - B A B Result :  11, 15,  20 B - A A B Result :  30,  35,  40 20 25 15 11 20 25 15 11 20 25 15 11 20 25 15 11 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000025.jpg"/></section>
+	<section type="slide" position="26" xmlns="">
+		<title></title>
+		<content>             Shop1  -  Shop2 Table Table Result Shop1 Shop2              Shop1 -  Shop2 Item no I_Name Price  101 Books 65.00 1212 Pencil 10.50 Item no I_Name Price 1587 Note Book 25.00 2145 Pen 12.00 Item no I_Name Price 1212 Pencil 10.50 1587 Note Book 25.00 2145 Pen 12.00 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000026.jpg"/></section>
+	<section type="slide" position="27" xmlns="">
+		<title></title>
+		<content>             Shop2  -  Shop1 Table Table Result Shop1 Shop2              Shop2 -  Shop1 Item no I_Name Price  101 Books 65.00 1212 Pencil 10.50 Item no I_Name Price 101 Books 65.00 Item no I_Name Price 1212 Pencil 10.50 1587 Note Book 25.00 2145 Pen 12.00 </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000027.jpg"/></section>
+	<section type="slide" position="28" xmlns="">
+		<title></title>
+		<content>Process to : Reduce data redundancies Eliminate data anomalies Produce controlled redundancies to linked table </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000028.jpg"/></section>
+	<section type="slide" position="29" xmlns="">
+		<title></title>
+		<content>First Normal Form (1NF) All attributes should have atomic values No repeating group in a table All attributes dependent on primary key 2. Second Normal Form (2NF) In 1NF No partial dependencies Transitive in nature 3. Third Normal Form (3NF) In 2NF No Transitive in nature </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000029.jpg"/></section>
+	<section type="slide" position="30" xmlns="">
+		<title></title>
+		<content>Front End 3. Connection 2.  Back End Front End Back End Connection </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000030.jpg"/></section>
+	<section type="slide" position="31" xmlns="">
+		<title></title>
+		<content>Prepared &amp; Presented by :  Dinesh Patel  PGT [CS]  KV Karanja </content>
+		<related-content></related-content>
+		<thumbnail href="data/thumb/thumb_slide_000031.jpg"/></section>
+</document-metadata>
