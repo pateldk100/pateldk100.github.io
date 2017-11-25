@@ -1,10 +1,9 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 <head>
 <title>School Chalen hum......</title>
 
 <style type='text/css'>
-
 @import url('style.css');
 /*----------Text Styles----------*/
 .ws6 {font-size: 8px;}
@@ -54,38 +53,31 @@ body {
 }
 </style>
 <script>
-
 /*
 Cursor Trailor Text- By Peter Gehrig (http://www.24fun.ch/)
 Permission given to Dynamicdrive.com to feature script in it's archive.
 For full source code, installation instructions, and 1000's more DHTML scripts,
 visit http://dynamicdrive.com
 */
-
 var x,y
 var step=20
 var flag=0
-
 // Your snappy message. Important: the space at the end of the sentence!!!
 var message="Dinesh Patel PGT[CS] "
 message=message.split("")
-
 var xpos=new Array()
 for (i=0;i<=message.length-1;i++) {
 	xpos[i]=-50
 }
-
 var ypos=new Array()
 for (i=0;i<=message.length-1;i++) {
 	ypos[i]=-50
 }
-
 function handlerMM(e){
 	x = (document.layers) ? e.pageX : document.body.scrollLeft+event.clientX
 	y = (document.layers) ? e.pageY : document.body.scrollTop+event.clientY
 	flag=1
 }
-
 function makesnake() {
 	if (flag==1 && document.all) {
     	for (i=message.length-1; i>=1; i--) {
@@ -118,7 +110,6 @@ function makesnake() {
 	}
 		var timer=setTimeout("makesnake()",30)
 }
-
 </script>
 
 <body>
@@ -128,12 +119,10 @@ for (i=0;i<=message.length-1;i++) {
 	document.write(message[i])
     document.write("</span>")
 }
-
 if (document.layers){
 	document.captureEvents(Event.MOUSEMOVE);
 }
 document.onmousemove = handlerMM;
-
 </script>
 <body onLoad="makesnake()" style="width:100%;overflow-x:hidden;overflow-y:scroll">
 </body>
@@ -274,6 +263,7 @@ marqueeInit({
 	  <div class="subItem"><font color="red">╬◙◙◙◙◙◙◙◙◙◙◙◙◙◙◙</font></div>
 		<div class="subItem"><a href="/syllabus/Syllabus_CS_XI_ 2017-18.pdf">Syllabus 2017-18</a></div>
 		<div class="subItem"><a href="/syllabus/Split-up_XI_CS_2017-18.pdf">Split-up Syllabus 2017-18</a></div>
+		<div class="subItem"><a href="/syllabus/List of Practicals - XI  CS.pdf">Practical List</a></div>
 
 		
 		
@@ -445,8 +435,6 @@ marqueeInit({
 </div>
 </div>
 <!-- *
-
-
 <br>
 <!-- *********************************Start Menu****************************** -->
 <div class="mainDiv" >
@@ -774,9 +762,7 @@ marqueeInit({
 
 
 <script>
-
     alert("Dear I.P. Students Class XI & XII, \nPlease follow the CBSE prescribed book available in CBSE website \nBy Dinesh Patel, PGT(CS)");
-
 </script>
 
 </div></div>
